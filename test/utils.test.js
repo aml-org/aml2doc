@@ -163,11 +163,11 @@ describe('utils.getDefaultContext', function () {
     const ctx = getDefaultContext()
     expect(ctx).to.include({
       amldoc: 'http://a.ml/vocabularies/document#',
-      meta: 'http://a.ml/vocabularies/meta#',
+      amlcore: 'http://a.ml/vocabularies/core#',
+      amlmeta: 'http://a.ml/vocabularies/meta#',
       owl: 'http://www.w3.org/2002/07/owl#',
       rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
       rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
-      schema: 'http://schema.org/',
       shacl: 'http://www.w3.org/ns/shacl#'
     })
     expect(ctx).to.have.property('config')

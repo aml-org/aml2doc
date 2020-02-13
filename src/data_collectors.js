@@ -4,11 +4,11 @@ const utils = require('./utils')
 /* Collects complete vocabulary data. */
 function collectVocabularyData (doc, ctx, acc) {
   const id = doc.query('@id')
-  const name = doc.query('> schema:name @value')
+  const name = doc.query('> amlcore:name @value')
   const vocabularyData = {
     name: name,
     id: ctx.config.idMapping(id),
-    version: doc.query('> schema:version @value'),
+    version: doc.query('> amlcore:version @value'),
     label: ctx.config.labelMapping(name)
   }
   if (!acc[id]) {
@@ -32,12 +32,12 @@ function collectVocabularyData (doc, ctx, acc) {
 /* Collects complete dialect data. */
 function collectDialectData (doc, ctx, acc, ontologyTerms) {
   const id = doc.query('@id')
-  const name = doc.query('> schema:name @value')
+  const name = doc.query('> amlcore:name @value')
   const dialectData = {
     name: name,
     label: ctx.config.labelMapping(name),
     id: ctx.config.idMapping(id),
-    version: doc.query('> schema:version @value')
+    version: doc.query('> amlcore:version @value')
   }
   if (!acc[id]) {
     console.log(`Collecting dialect data for id ${id}`)
@@ -81,12 +81,12 @@ function collectVocabularyNodesData (doc, dialectData, ctx) {
       const nodeId = node.query('@id')
       if (!acc[nodeId]) {
         console.log(`\t- ${nodeId}`)
-        const name = node.query('> meta:displayName @value')
+        const name = node.query('> amlcore:displayName @value')
         const nodeData = {
           type: cred.type,
           name: name,
           label: ctx.config.labelMapping(name),
-          description: node.query('> schema:description @value'),
+          description: node.query('> amlcore:description @value'),
           id: ctx.config.idMapping(node.query('@id')),
           dialectName: dialectData.name,
           dialectLabel: ctx.config.labelMapping(dialectData.name)
@@ -112,7 +112,7 @@ function collectNodesData (doc, dialectData, ctx, ontologyTerms) {
       const nodeId = node.query('@id')
       if (!acc[nodeId]) {
         console.log(`\t- ${nodeId}`)
-        const name = node.query('> schema:name @value')
+        const name = node.query('> amlcore:name @value')
         const nodeData = {
           name: name,
           label: ctx.config.labelMapping(name),
@@ -125,8 +125,7 @@ function collectNodesData (doc, dialectData, ctx, ontologyTerms) {
         nodeData.htmlName = utils.makeSchemaHtmlName(
           dialectData.slug, nodeData.slug)
 
-        const isUnion = node.query('@type')
-          .indexOf(`${ctx.meta}UnionNodeMapping`) > -1
+        const isUnion = node.query('@type').includes(`${ctx.amlmeta}UnionNodeMapping`)
         if (isUnion) {
           const seq = node.query('> shacl:node[@type=rdfs:Seq]')
           const names = seq.queryAll('@id').slice(1).map(utils.parseHashValue)
@@ -140,7 +139,7 @@ function collectNodesData (doc, dialectData, ctx, ontologyTerms) {
           const targetClassId = node.query('> shacl:targetClass @id')
           const targetClass = doc.query(`amldoc:declares[@id=${targetClassId}]`)
           nodeData.description = targetClass
-            ? targetClass.query('schema:description @value')
+            ? targetClass.query('amlcore:description @value')
             : ''
           if (ontologyTerms[targetClassId] != null) {
             nodeData.description = ontologyTerms[targetClassId].description
@@ -199,7 +198,7 @@ function collectLinkPropsData (doc, node, dialectSlug, ontologyTerms, ctx) {
         const decl = doc.query(`amldoc:declares[@id=${rangeId}]`)
         if (decl) {
           data.rangeHtmlName = utils.makeSchemaHtmlName(
-            utils.slugify(decl.parent().query('> schema:name @value')),
+            utils.slugify(decl.parent().query('> amlcore:name @value')),
             utils.slugify(data.rangeName))
         }
         return data
@@ -211,13 +210,13 @@ function collectLinkPropsData (doc, node, dialectSlug, ontologyTerms, ctx) {
 /* Collects property data common to scalar and link properties. */
 function collectCommonPropData (doc, prop, ontologyTerms) {
   const propData = {
-    name: prop.query('schema:name @value'),
+    name: prop.query('amlcore:name @value'),
     id: prop.query('shacl:path @id'),
     constraints: collectPropertyConstraints(prop)
   }
   const vocabProp = doc.query(`amldoc:declares[@id=${propData.id}]`)
   if (vocabProp) {
-    propData.propDesc = vocabProp.query('schema:description @value')
+    propData.propDesc = vocabProp.query('amlcore:description @value')
   }
   if (ontologyTerms[propData.id] != null) {
     propData.propDesc = ontologyTerms[propData.id].description
@@ -233,12 +232,12 @@ function collectPropertyConstraints (prop) {
     { name: 'pattern', value: prop.query('shacl:pattern @value') },
     { name: 'minimum', value: prop.query('shacl:minInclusive @value') },
     { name: 'maximum', value: prop.query('shacl:maxInclusive @value') },
-    { name: 'allowMultiple', value: prop.query('meta:allowMultiple @value') },
-    { name: 'sorted', value: prop.query('meta:sorted @value') },
-    { name: 'mapKey', value: prop.query('meta:mapProperty @id') },
+    { name: 'allowMultiple', value: prop.query('amlmeta:allowMultiple @value') },
+    { name: 'sorted', value: prop.query('amlmeta:sorted @value') },
+    { name: 'mapKey', value: prop.query('amlmeta:mapProperty @id') },
     {
       name: 'typeDiscriminatorName',
-      value: prop.query('meta:typeDiscriminatorName @value')
+      value: prop.query('amlmeta:typeDiscriminatorName @value')
     }
   ]
 
@@ -250,7 +249,7 @@ function collectPropertyConstraints (prop) {
     })
   }
 
-  const discrValue = prop.query('meta:typeDiscriminatorMap @value')
+  const discrValue = prop.query('amlmeta:typeDiscriminatorMap @value')
   if (discrValue) {
     constraints.push({
       name: 'typeDiscriminator',
@@ -300,7 +299,7 @@ function collectNavData (dialectData, commonNavData, ctx) {
  * Process a file as a vocabulary
  */
 function processVocabulary (graph, ctx, acc) {
-  const docs = ldquery(graph, ctx).queryAll('*[@type=meta:Vocabulary]')
+  const docs = ldquery(graph, ctx).queryAll('*[@type=amlmeta:Vocabulary]')
   docs.forEach(doc => {
     console.log('FOUND A VOCABULARY')
     const id = doc.query('@id')
@@ -315,7 +314,7 @@ function processVocabulary (graph, ctx, acc) {
  * Process a file as a dialect
  */
 function processDialect (graph, ctx, acc, ontologyTerms) {
-  const docs = ldquery(graph, ctx).queryAll('*[@type=meta:Dialect]')
+  const docs = ldquery(graph, ctx).queryAll('*[@type=amlmeta:Dialect]')
   docs.forEach(doc => {
     const id = doc.query('@id')
     if (!acc[id]) {

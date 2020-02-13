@@ -104,7 +104,7 @@ describe('data_collectors.processDialect', async function () {
     expect(acc[id])
       .to.have.property('nodeMappings')
       .and.be.an('array')
-      .and.be.lengthOf(1)
+      .and.be.lengthOf(2)
     expect(acc[id].nodeMappings[0]).to.include({
       name: 'ArtistNode',
       label: 'ArtistNode',
@@ -211,10 +211,10 @@ describe('data_collectors.collectCommonPropData', async function () {
       'shacl:property[@id=file://validation.yaml#/declarations/profileNode]')
     const data = collectCommonPropData(doc, prop, {})
     expect(data).to.deep.equal({
-      name: 'profile',
-      id: 'http://schema.org/name',
+      name: 'info',
+      id: 'http://a.ml/vocabularies/amf-validation#setSeverityInfo',
       propDesc: 'Textual representation',
-      constraints: [{ name: 'mandatory', value: true }]
+      constraints: [{ name: 'allowMultiple', value: true }]
     })
   })
 })
@@ -260,9 +260,9 @@ describe('data_collectors.collectScalarPropsData', async function () {
       'amldoc:declares[@id=file://validation.yaml#/declarations/profileNode]')
     const data = collectScalarPropsData(doc, node, 'iamdialect', {})
     expect(data).to.deep.equal([{
-      name: 'profile',
-      id: 'http://schema.org/name',
-      constraints: [{ name: 'mandatory', value: true }],
+      name: 'info',
+      id: 'http://a.ml/vocabularies/amf-validation#setSeverityInfo',
+      constraints: [{ name: 'allowMultiple', value: true }],
       propDesc: 'Textual representation',
       range: 'string'
     }, {
@@ -276,16 +276,6 @@ describe('data_collectors.collectScalarPropsData', async function () {
       constraints: [],
       range: 'string'
     }, {
-      name: 'violation',
-      id: 'http://a.ml/vocabularies/amf-validation#setSeverityViolation',
-      constraints: [{ name: 'allowMultiple', value: true }],
-      range: 'string'
-    }, {
-      name: 'info',
-      id: 'http://a.ml/vocabularies/amf-validation#setSeverityInfo',
-      constraints: [{ name: 'allowMultiple', value: true }],
-      range: 'string'
-    }, {
       name: 'warning',
       id: 'http://a.ml/vocabularies/amf-validation#setSeverityWarning',
       constraints: [{ name: 'allowMultiple', value: true }],
@@ -293,6 +283,16 @@ describe('data_collectors.collectScalarPropsData', async function () {
     }, {
       name: 'disabled',
       id: 'http://a.ml/vocabularies/amf-validation#disableValidation',
+      constraints: [{ name: 'allowMultiple', value: true }],
+      range: 'string'
+    }, {
+      name: 'profile',
+      id: 'http://schema.org/name',
+      constraints: [{ name: 'mandatory', value: true }],
+      range: 'string'
+    }, {
+      name: 'violation',
+      id: 'http://a.ml/vocabularies/amf-validation#setSeverityViolation',
       constraints: [{ name: 'allowMultiple', value: true }],
       range: 'string'
     }])
