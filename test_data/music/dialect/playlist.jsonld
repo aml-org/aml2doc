@@ -1,6 +1,6 @@
 [
   {
-    "@id": "file://test_data/music/dialect/playlist.yaml",
+    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml",
     "@type": [
       "http://a.ml/vocabularies/meta#Dialect",
       "http://a.ml/vocabularies/document#Document",
@@ -8,25 +8,25 @@
       "http://a.ml/vocabularies/document#Module",
       "http://a.ml/vocabularies/document#Unit"
     ],
-    "http://schema.org/name": [
+    "http://a.ml/vocabularies/core#name": [
       {
         "@value": "Playlist"
       }
     ],
-    "http://schema.org/version": [
+    "http://a.ml/vocabularies/core#version": [
       {
         "@value": "1.0"
       }
     ],
     "http://a.ml/vocabularies/meta#externals": [
       {
-        "@id": "file://test_data/music/dialect/playlist.yaml/externals/schema-org",
+        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml/externals/schema-org",
         "@type": [
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/meta#ExternalVocabulary",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://schema.org/alias": [
+        "http://a.ml/vocabularies/core#displayName": [
           {
             "@value": "schema-org"
           }
@@ -40,60 +40,60 @@
     ],
     "http://a.ml/vocabularies/meta#documents": [
       {
-        "@id": "file://test_data/music/dialect/playlist.yaml/documents",
+        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml/documents",
         "@type": [
           "http://a.ml/vocabularies/meta#DocumentsModel",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
         "http://a.ml/vocabularies/meta#rootDocument": [
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/documents/root",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/documents/root",
             "@type": [
               "http://a.ml/vocabularies/meta#DocumentMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "Playlist 1.0"
               }
             ],
             "http://a.ml/vocabularies/meta#encodedNode": [
               {
-                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode"
+                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode"
               }
             ],
             "http://a.ml/vocabularies/meta#declaredNode": [
               {
-                "@id": "file://test_data/music/dialect/playlist.yaml#/documents/declaration/composers",
+                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/documents/declaration/composers",
                 "@type": [
                   "http://a.ml/vocabularies/meta#PublicNodeMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://schema.org/name": [
+                "http://a.ml/vocabularies/core#name": [
                   {
                     "@value": "composers"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#mappedNode": [
                   {
-                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ComposerNode"
+                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ComposerNode"
                   }
                 ]
               },
               {
-                "@id": "file://test_data/music/dialect/playlist.yaml#/documents/declaration/records",
+                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/documents/declaration/records",
                 "@type": [
                   "http://a.ml/vocabularies/meta#PublicNodeMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://schema.org/name": [
+                "http://a.ml/vocabularies/core#name": [
                   {
                     "@value": "records"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#mappedNode": [
                   {
-                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode"
+                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode"
                   }
                 ]
               }
@@ -102,34 +102,49 @@
         ]
       }
     ],
+    "http://a.ml/vocabularies/document#location": [
+      {
+        "@value": "http://a.ml/amf/default_document"
+      }
+    ],
+    "http://a.ml/vocabularies/document#version": [
+      {
+        "@value": "2.0.1"
+      }
+    ],
+    "http://a.ml/vocabularies/document#root": [
+      {
+        "@value": true
+      }
+    ],
     "http://a.ml/vocabularies/document#references": [
       {
-        "@id": "file://test_data/music/vocabulary/music_curation.yaml",
+        "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music_curation.yaml",
         "@type": [
           "http://a.ml/vocabularies/meta#Vocabulary",
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/document#Unit"
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name": [
           {
             "@value": "Music Vocabulary"
           }
         ],
         "http://www.w3.org/2002/07/owl#imports": [
           {
-            "@id": "file://test_data/music/vocabulary/music_curation.yaml/vocabularyReference/music",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music_curation.yaml/vocabularyReference/music",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://schema.org/alias": [
+            "http://a.ml/vocabularies/document#alias": [
               {
                 "@value": "music"
               }
             ],
-            "http://a.ml/vocabularies/document#Reference": [
+            "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file://test_data/music/vocabulary/music.yaml"
+                "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -141,17 +156,44 @@
         ],
         "http://a.ml/vocabularies/document#declares": [
           {
+            "@id": "http://a.ml/vocabularies/music_curation#FavoritePlaylists",
+            "@type": [
+              "http://www.w3.org/2002/07/owl#Class",
+              "http://a.ml/vocabularies/document#DomainElement"
+            ],
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "FavoritePlaylists"
+              }
+            ],
+            "http://a.ml/vocabularies/core#displayName": [
+              {
+                "@value": "Favorite Playlists"
+              }
+            ],
+            "http://a.ml/vocabularies/core#description": [
+              {
+                "@value": "A list of favorite playlists"
+              }
+            ]
+          },
+          {
             "@id": "http://a.ml/vocabularies/music_curation#Playlist",
             "@type": [
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "Playlist"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#displayName": [
+              {
+                "@value": "Playlist"
+              }
+            ],
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "A particular compilation of music tracks"
               }
@@ -163,12 +205,17 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "PlaylistSelection"
+              }
+            ],
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "Playlist Selection"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "EAch of the tracks selected in the playlist"
               }
@@ -195,12 +242,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "author"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "author of the playlist"
               }
@@ -213,12 +260,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "score"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "score value for a curated music manifestation"
               }
@@ -236,12 +283,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "contents"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "contents of a playlist"
               }
@@ -259,12 +306,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "catalog ID"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "an Identifier for a track in a music catalogue"
               }
@@ -282,12 +329,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "track from"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "relation between a track and the album where it was released"
               }
@@ -305,12 +352,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "position"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "position in a playlist"
               }
@@ -328,12 +375,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "Spotify ID"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "identifier of a track in Spotify"
               }
@@ -356,12 +403,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "selected track"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "selection of a particular music track"
               }
@@ -380,31 +427,36 @@
         ],
         "http://a.ml/vocabularies/document#location": [
           {
-            "@value": "file://test_data/music/vocabulary/music_curation.yaml"
+            "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music_curation.yaml"
+          }
+        ],
+        "http://a.ml/vocabularies/document#version": [
+          {
+            "@value": "2.0.1"
           }
         ],
         "http://a.ml/vocabularies/document#references": [
           {
-            "@id": "file://test_data/music/vocabulary/music.yaml",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/document#Unit"
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "Music Vocabulary"
               }
             ],
             "http://a.ml/vocabularies/meta#externals": [
               {
-                "@id": "file://test_data/music/vocabulary/music.yaml/externals/geo",
+                "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml/externals/geo",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://schema.org/alias": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "geo"
                   }
@@ -416,13 +468,13 @@
                 ]
               },
               {
-                "@id": "file://test_data/music/vocabulary/music.yaml/externals/schema-org",
+                "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml/externals/schema-org",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://schema.org/alias": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "schema-org"
                   }
@@ -441,12 +493,17 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#name": [
+                  {
+                    "@value": "MusicalManifestation"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "Musical Manifestation"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "This entity is related to the edition/production/publication of a musical expression\n(musical manifestation are closely related with the music industry (their terms, concepts,\ndefinitions, methods (production, publication, etc.), etc.) From the FRBR final report:\nThe entity defined as manifestation encompasses a wide range of materials, including\nmanuscripts, books, periodicals, maps, posters, sound recordings, films, video recordings,\nCD-ROMs, multimedia kits, etc.\n\nDefining manifestation as an entity also enables us to draw relationships between specific\nmanifestations of a work. We can use the relationships between manifestations to identify,\nfor example, the specific publication that was used to create a microreproduction.\n"
                   }
@@ -469,6 +526,11 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
+                "http://a.ml/vocabularies/core#name": [
+                  {
+                    "@value": "Vinyl"
+                  }
+                ],
                 "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
                   {
                     "@id": "http://a.ml/vocabularies/music#Medium"
@@ -481,12 +543,17 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#name": [
+                  {
+                    "@value": "SoloMuiscArtist"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "Solo Music Artist"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "A published record (manifestation which first aim is to render the product of a recording)"
                   }
@@ -506,7 +573,12 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#name": [
+                  {
+                    "@value": "Stream"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Transmission over a network used as medium to broadcast a musical manifestation"
                   }
@@ -523,7 +595,12 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#name": [
+                  {
+                    "@value": "Torrent"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Something available on the Bittorrent peer-2-peer filesharing network"
                   }
@@ -540,12 +617,17 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#name": [
                   {
                     "@value": "Medium"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#displayName": [
+                  {
+                    "@value": "Medium"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "A means or instrumentality for storing or communicating musical manifestation."
                   }
@@ -557,12 +639,17 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#name": [
                   {
                     "@value": "Track"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#displayName": [
+                  {
+                    "@value": "Track"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "A track on a particular record"
                   }
@@ -584,12 +671,17 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#name": [
                   {
                     "@value": "Label"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#displayName": [
+                  {
+                    "@value": "Label"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Trade name of a company that produces musical works or expression of musical works."
                   }
@@ -606,12 +698,17 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#name": [
                   {
                     "@value": "Record"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#displayName": [
+                  {
+                    "@value": "Record"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "A published record (manifestation which first aim is to render the product of a recording)"
                   }
@@ -636,12 +733,17 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#name": [
+                  {
+                    "@value": "MusicArtist"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "Music Artist"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "A person or a group of people (or a computer :-) ), whose musical\ncreative work shows sensitivity and imagination\n"
                   }
@@ -652,6 +754,11 @@
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
+                ],
+                "http://a.ml/vocabularies/core#name": [
+                  {
+                    "@value": "CD"
+                  }
                 ],
                 "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
                   {
@@ -665,12 +772,17 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#name": [
+                  {
+                    "@value": "MusicGroup"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "Music Group"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Group of musicians, or musical ensemble, usually popular or folk,\nplaying parts of or improvising off of a musical arrangement\n"
                   }
@@ -692,12 +804,17 @@
                   "http://www.w3.org/2002/07/owl#Class",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#name": [
                   {
                     "@value": "Performance"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#displayName": [
+                  {
+                    "@value": "Performance"
+                  }
+                ],
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "A performance event. It might include as agents performers, engineers, conductors,\nor even listeners. It might include as factors a score, a MusicalWork, musical instruments.\nIt might produce a sound:-)\n"
                   }
@@ -718,12 +835,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "catalogue number"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Links a release with the corresponding catalogue number"
                   }
@@ -741,12 +858,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "duration"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "The duration of a track or a signal in ms"
                   }
@@ -764,12 +881,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "genre"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Associates an event (like a performance or a recording) to a particular musical genre.\nFurther version of this property may also include works and scores in the domain.\n"
                   }
@@ -787,12 +904,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "release type"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Relates a musical manifestation to its release type (interview, spoken word, album, ...)"
                   }
@@ -810,12 +927,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "recorded as"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Connection between a performance and the medium where it was released"
                   }
@@ -833,12 +950,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "track number"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Indicates the position of a track on a record medium (a CD, etc.)."
                   }
@@ -856,12 +973,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "track"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Indicates a part of a musical manifestation - in this particular case, a track."
                   }
@@ -884,12 +1001,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "beats per minute"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Indicates the BPM of a MusicalWork or a particular Performance Beats per minute: the pace\nof music measured by the number of beats occurring in 60 seconds.\n"
                   }
@@ -907,12 +1024,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "composer"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Associates a composition event to the actual composer. For example, this property could link the event\ncorresponding to the composition of the Magic Flute in 1782 to Mozart himself.\n"
                   }
@@ -925,12 +1042,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "engineer"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Relates a performance or a recording to the engineer involved"
                   }
@@ -943,12 +1060,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "member"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Indicates a member of a musical group"
                   }
@@ -961,12 +1078,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "origin"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Relates an artist to its geographic origin"
                   }
@@ -984,12 +1101,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "publisher"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Relates a musical manifestation to its publication location."
                   }
@@ -1007,12 +1124,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "label code"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "The Label Code (LC) was introduced in 1977 by the IFPI (International Federation of Phonogram and\nVideogram Industries) in order to unmistakably identify the different record labels (see Introduction,\nRecord labels) for rights purposes. The Label Code consists historically of 4 figures, presently being\nextended to 5 figures, preceded by LC and a dash (e.g. LC-0193 = Electrola; LC-0233 = His Master's Voice).\nNote that the number of countries using the LC is limited, and that the code given on the item is not\nalways accurate.\n"
                   }
@@ -1030,12 +1147,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "interpreter"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Adds an involved music artist, who interpreted, remixed, or otherwise modified an existing signal,\nwhich resulted in the signal that is here the subject of this relation.\n"
                   }
@@ -1053,12 +1170,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "track count"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "The track count of a record"
                   }
@@ -1076,12 +1193,12 @@
                   "http://a.ml/vocabularies/meta#Property",
                   "http://a.ml/vocabularies/document#DomainElement"
                 ],
-                "http://a.ml/vocabularies/meta#displayName": [
+                "http://a.ml/vocabularies/core#displayName": [
                   {
                     "@value": "performer"
                   }
                 ],
-                "http://schema.org/description": [
+                "http://a.ml/vocabularies/core#description": [
                   {
                     "@value": "Relates a performance to the performers involved"
                   }
@@ -1105,34 +1222,49 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file://test_data/music/vocabulary/music.yaml"
+                "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml"
               }
             ],
-            "http://a.ml/vocabularies/document#references": []
+            "http://a.ml/vocabularies/document#version": [
+              {
+                "@value": "2.0.1"
+              }
+            ],
+            "http://a.ml/vocabularies/document#references": [],
+            "http://a.ml/vocabularies/document#root": [
+              {
+                "@value": false
+              }
+            ]
+          }
+        ],
+        "http://a.ml/vocabularies/document#root": [
+          {
+            "@value": false
           }
         ]
       },
       {
-        "@id": "file://test_data/music/vocabulary/music.yaml",
+        "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml",
         "@type": [
           "http://a.ml/vocabularies/meta#Vocabulary",
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/document#Unit"
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name": [
           {
             "@value": "Music Vocabulary"
           }
         ],
         "http://a.ml/vocabularies/meta#externals": [
           {
-            "@id": "file://test_data/music/vocabulary/music.yaml/externals/geo",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml/externals/geo",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://schema.org/alias": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "geo"
               }
@@ -1144,13 +1276,13 @@
             ]
           },
           {
-            "@id": "file://test_data/music/vocabulary/music.yaml/externals/schema-org",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml/externals/schema-org",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://schema.org/alias": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "schema-org"
               }
@@ -1169,12 +1301,17 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "MusicalManifestation"
+              }
+            ],
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "Musical Manifestation"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "This entity is related to the edition/production/publication of a musical expression\n(musical manifestation are closely related with the music industry (their terms, concepts,\ndefinitions, methods (production, publication, etc.), etc.) From the FRBR final report:\nThe entity defined as manifestation encompasses a wide range of materials, including\nmanuscripts, books, periodicals, maps, posters, sound recordings, films, video recordings,\nCD-ROMs, multimedia kits, etc.\n\nDefining manifestation as an entity also enables us to draw relationships between specific\nmanifestations of a work. We can use the relationships between manifestations to identify,\nfor example, the specific publication that was used to create a microreproduction.\n"
               }
@@ -1197,6 +1334,11 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "Vinyl"
+              }
+            ],
             "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
               {
                 "@id": "http://a.ml/vocabularies/music#Medium"
@@ -1209,12 +1351,17 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "SoloMuiscArtist"
+              }
+            ],
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "Solo Music Artist"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "A published record (manifestation which first aim is to render the product of a recording)"
               }
@@ -1234,7 +1381,12 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "Stream"
+              }
+            ],
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Transmission over a network used as medium to broadcast a musical manifestation"
               }
@@ -1251,7 +1403,12 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "Torrent"
+              }
+            ],
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Something available on the Bittorrent peer-2-peer filesharing network"
               }
@@ -1268,12 +1425,17 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "Medium"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#displayName": [
+              {
+                "@value": "Medium"
+              }
+            ],
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "A means or instrumentality for storing or communicating musical manifestation."
               }
@@ -1285,12 +1447,17 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "Track"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#displayName": [
+              {
+                "@value": "Track"
+              }
+            ],
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "A track on a particular record"
               }
@@ -1312,12 +1479,17 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "Label"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#displayName": [
+              {
+                "@value": "Label"
+              }
+            ],
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Trade name of a company that produces musical works or expression of musical works."
               }
@@ -1334,12 +1506,17 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "Record"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#displayName": [
+              {
+                "@value": "Record"
+              }
+            ],
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "A published record (manifestation which first aim is to render the product of a recording)"
               }
@@ -1364,12 +1541,17 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "MusicArtist"
+              }
+            ],
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "Music Artist"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "A person or a group of people (or a computer :-) ), whose musical\ncreative work shows sensitivity and imagination\n"
               }
@@ -1380,6 +1562,11 @@
             "@type": [
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
+            ],
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "CD"
+              }
             ],
             "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
               {
@@ -1393,12 +1580,17 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "MusicGroup"
+              }
+            ],
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "Music Group"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Group of musicians, or musical ensemble, usually popular or folk,\nplaying parts of or improvising off of a musical arrangement\n"
               }
@@ -1420,12 +1612,17 @@
               "http://www.w3.org/2002/07/owl#Class",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "Performance"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#displayName": [
+              {
+                "@value": "Performance"
+              }
+            ],
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "A performance event. It might include as agents performers, engineers, conductors,\nor even listeners. It might include as factors a score, a MusicalWork, musical instruments.\nIt might produce a sound:-)\n"
               }
@@ -1446,12 +1643,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "catalogue number"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Links a release with the corresponding catalogue number"
               }
@@ -1469,12 +1666,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "duration"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "The duration of a track or a signal in ms"
               }
@@ -1492,12 +1689,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "genre"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Associates an event (like a performance or a recording) to a particular musical genre.\nFurther version of this property may also include works and scores in the domain.\n"
               }
@@ -1515,12 +1712,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "release type"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Relates a musical manifestation to its release type (interview, spoken word, album, ...)"
               }
@@ -1538,12 +1735,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "recorded as"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Connection between a performance and the medium where it was released"
               }
@@ -1561,12 +1758,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "track number"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Indicates the position of a track on a record medium (a CD, etc.)."
               }
@@ -1584,12 +1781,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "track"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Indicates a part of a musical manifestation - in this particular case, a track."
               }
@@ -1612,12 +1809,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "beats per minute"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Indicates the BPM of a MusicalWork or a particular Performance Beats per minute: the pace\nof music measured by the number of beats occurring in 60 seconds.\n"
               }
@@ -1635,12 +1832,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "composer"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Associates a composition event to the actual composer. For example, this property could link the event\ncorresponding to the composition of the Magic Flute in 1782 to Mozart himself.\n"
               }
@@ -1653,12 +1850,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "engineer"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Relates a performance or a recording to the engineer involved"
               }
@@ -1671,12 +1868,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "member"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Indicates a member of a musical group"
               }
@@ -1689,12 +1886,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "origin"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Relates an artist to its geographic origin"
               }
@@ -1712,12 +1909,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "publisher"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Relates a musical manifestation to its publication location."
               }
@@ -1735,12 +1932,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "label code"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "The Label Code (LC) was introduced in 1977 by the IFPI (International Federation of Phonogram and\nVideogram Industries) in order to unmistakably identify the different record labels (see Introduction,\nRecord labels) for rights purposes. The Label Code consists historically of 4 figures, presently being\nextended to 5 figures, preceded by LC and a dash (e.g. LC-0193 = Electrola; LC-0233 = His Master's Voice).\nNote that the number of countries using the LC is limited, and that the code given on the item is not\nalways accurate.\n"
               }
@@ -1758,12 +1955,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "interpreter"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Adds an involved music artist, who interpreted, remixed, or otherwise modified an existing signal,\nwhich resulted in the signal that is here the subject of this relation.\n"
               }
@@ -1781,12 +1978,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "track count"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "The track count of a record"
               }
@@ -1804,12 +2001,12 @@
               "http://a.ml/vocabularies/meta#Property",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#displayName": [
+            "http://a.ml/vocabularies/core#displayName": [
               {
                 "@value": "performer"
               }
             ],
-            "http://schema.org/description": [
+            "http://a.ml/vocabularies/core#description": [
               {
                 "@value": "Relates a performance to the performers involved"
               }
@@ -1833,15 +2030,25 @@
         ],
         "http://a.ml/vocabularies/document#location": [
           {
-            "@value": "file://test_data/music/vocabulary/music.yaml"
+            "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml"
           }
         ],
-        "http://a.ml/vocabularies/document#references": []
+        "http://a.ml/vocabularies/document#version": [
+          {
+            "@value": "2.0.1"
+          }
+        ],
+        "http://a.ml/vocabularies/document#references": [],
+        "http://a.ml/vocabularies/document#root": [
+          {
+            "@value": false
+          }
+        ]
       }
     ],
     "http://a.ml/vocabularies/document#declares": [
       {
-        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
+        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -1852,14 +2059,14 @@
             "@id": "http://a.ml/vocabularies/music#Track"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name": [
           {
             "@value": "TrackNode"
           }
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -1869,7 +2076,7 @@
                 "@id": "http://a.ml/vocabularies/music_curation#spotifyId"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "spotifyId"
               }
@@ -1886,7 +2093,29 @@
             ]
           },
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
+            "@type": [
+              "http://a.ml/vocabularies/meta#NodePropertyMapping",
+              "http://a.ml/vocabularies/document#DomainElement"
+            ],
+            "http://www.w3.org/ns/shacl#path": [
+              {
+                "@id": "http://a.ml/vocabularies/music#duration"
+              }
+            ],
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "duration"
+              }
+            ],
+            "http://www.w3.org/ns/shacl#datatype": [
+              {
+                "@id": "http://www.w3.org/2001/XMLSchema#integer"
+              }
+            ]
+          },
+          {
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -1896,7 +2125,7 @@
                 "@id": "http://schema.org/name"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "title"
               }
@@ -1911,38 +2140,16 @@
                 "@value": 1
               }
             ]
-          },
-          {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
-            "@type": [
-              "http://a.ml/vocabularies/meta#NodePropertyMapping",
-              "http://a.ml/vocabularies/document#DomainElement"
-            ],
-            "http://www.w3.org/ns/shacl#path": [
-              {
-                "@id": "http://a.ml/vocabularies/music#duration"
-              }
-            ],
-            "http://schema.org/name": [
-              {
-                "@value": "duration"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#datatype": [
-              {
-                "@id": "http://www.w3.org/2001/XMLSchema#integer"
-              }
-            ]
           }
         ],
-        "http://www.w3.org/ns/hydra/core#template": [
+        "http://a.ml/vocabularies/apiContract#uriTemplate": [
           {
             "@value": "https://api.spotify.com/v1/tracks/{spotifyId}"
           }
         ]
       },
       {
-        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
+        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -1953,14 +2160,14 @@
             "@id": "http://a.ml/vocabularies/music#MusicArtist"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name": [
           {
             "@value": "ComposerNode"
           }
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -1970,7 +2177,7 @@
                 "@id": "http://a.ml/vocabularies/music_curation#spotifyId"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "spotifyId"
               }
@@ -1987,7 +2194,7 @@
             ]
           },
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -1997,7 +2204,7 @@
                 "@id": "http://schema.org/name"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "name"
               }
@@ -2009,14 +2216,14 @@
             ]
           }
         ],
-        "http://www.w3.org/ns/hydra/core#template": [
+        "http://a.ml/vocabularies/apiContract#uriTemplate": [
           {
             "@value": "https://api.spotify.com/v1/artists/{spotifyId}"
           }
         ]
       },
       {
-        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
+        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -2027,14 +2234,14 @@
             "@id": "http://a.ml/vocabularies/music#Record"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name": [
           {
             "@value": "RecordNode"
           }
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -2044,7 +2251,7 @@
                 "@id": "http://a.ml/vocabularies/music_curation#spotifyId"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "spotifyId"
               }
@@ -2061,34 +2268,7 @@
             ]
           },
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
-            "@type": [
-              "http://a.ml/vocabularies/meta#NodePropertyMapping",
-              "http://a.ml/vocabularies/document#DomainElement"
-            ],
-            "http://www.w3.org/ns/shacl#path": [
-              {
-                "@id": "http://schema.org/name"
-              }
-            ],
-            "http://schema.org/name": [
-              {
-                "@value": "title"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#datatype": [
-              {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#minCount": [
-              {
-                "@value": 1
-              }
-            ]
-          },
-          {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -2098,7 +2278,7 @@
                 "@id": "http://a.ml/vocabularies/music#genre"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "genre"
               }
@@ -2113,16 +2293,43 @@
                 "@value": true
               }
             ]
+          },
+          {
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
+            "@type": [
+              "http://a.ml/vocabularies/meta#NodePropertyMapping",
+              "http://a.ml/vocabularies/document#DomainElement"
+            ],
+            "http://www.w3.org/ns/shacl#path": [
+              {
+                "@id": "http://schema.org/name"
+              }
+            ],
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "title"
+              }
+            ],
+            "http://www.w3.org/ns/shacl#datatype": [
+              {
+                "@id": "http://www.w3.org/2001/XMLSchema#string"
+              }
+            ],
+            "http://www.w3.org/ns/shacl#minCount": [
+              {
+                "@value": 1
+              }
+            ]
           }
         ],
-        "http://www.w3.org/ns/hydra/core#template": [
+        "http://a.ml/vocabularies/apiContract#uriTemplate": [
           {
             "@value": "https://api.spotify.com/v1/albums/{spotifyId}"
           }
         ]
       },
       {
-        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
+        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -2133,14 +2340,14 @@
             "@id": "http://a.ml/vocabularies/music#MusicArtist"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name": [
           {
             "@value": "ArtistNode"
           }
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -2150,7 +2357,7 @@
                 "@id": "http://a.ml/vocabularies/music_curation#spotifyId"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "spotifyId"
               }
@@ -2167,7 +2374,7 @@
             ]
           },
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -2177,7 +2384,7 @@
                 "@id": "http://schema.org/name"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "name"
               }
@@ -2189,14 +2396,14 @@
             ]
           }
         ],
-        "http://www.w3.org/ns/hydra/core#template": [
+        "http://a.ml/vocabularies/apiContract#uriTemplate": [
           {
             "@value": "https://api.spotify.com/v1/artists/{spotifyId}"
           }
         ]
       },
       {
-        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -2207,47 +2414,36 @@
             "@id": "http://a.ml/vocabularies/music_curation#PlaylistSelection"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name": [
           {
             "@value": "SelectionNode"
           }
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
             "http://www.w3.org/ns/shacl#path": [
               {
-                "@id": "http://a.ml/vocabularies/music_curation#selectedTrack"
+                "@id": "http://a.ml/vocabularies/music_curation#score"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
-                "@value": "track"
+                "@value": "score"
               }
             ],
-            "http://www.w3.org/ns/shacl#node": [
+            "http://www.w3.org/ns/shacl#datatype": [
               {
-                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
-                "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
-                "http://www.w3.org/2000/01/rdf-schema#_1": [
-                  {
-                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/TrackNode"
-                  }
-                ]
-              }
-            ],
-            "http://www.w3.org/ns/shacl#minCount": [
-              {
-                "@value": 1
+                "@id": "http://www.w3.org/2001/XMLSchema#integer"
               }
             ]
           },
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -2257,18 +2453,18 @@
                 "@id": "http://a.ml/vocabularies/music#performer"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "artist"
               }
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
+                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ArtistNode"
+                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ArtistNode"
                   }
                 ]
               }
@@ -2280,7 +2476,40 @@
             ]
           },
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+            "@type": [
+              "http://a.ml/vocabularies/meta#NodePropertyMapping",
+              "http://a.ml/vocabularies/document#DomainElement"
+            ],
+            "http://www.w3.org/ns/shacl#path": [
+              {
+                "@id": "http://a.ml/vocabularies/music_curation#selectedTrack"
+              }
+            ],
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "track"
+              }
+            ],
+            "http://www.w3.org/ns/shacl#node": [
+              {
+                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
+                "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
+                "http://www.w3.org/2000/01/rdf-schema#_1": [
+                  {
+                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/TrackNode"
+                  }
+                ]
+              }
+            ],
+            "http://www.w3.org/ns/shacl#minCount": [
+              {
+                "@value": 1
+              }
+            ]
+          },
+          {
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -2290,18 +2519,18 @@
                 "@id": "http://a.ml/vocabularies/music#composer"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "composer"
               }
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
+                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ComposerNode"
+                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ComposerNode"
                   }
                 ]
               }
@@ -2313,7 +2542,7 @@
             ]
           },
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -2323,18 +2552,18 @@
                 "@id": "http://a.ml/vocabularies/music_curation#trackFrom"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "album"
               }
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
+                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode"
+                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode"
                   }
                 ]
               }
@@ -2344,33 +2573,11 @@
                 "@value": 1
               }
             ]
-          },
-          {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
-            "@type": [
-              "http://a.ml/vocabularies/meta#NodePropertyMapping",
-              "http://a.ml/vocabularies/document#DomainElement"
-            ],
-            "http://www.w3.org/ns/shacl#path": [
-              {
-                "@id": "http://a.ml/vocabularies/music_curation#score"
-              }
-            ],
-            "http://schema.org/name": [
-              {
-                "@value": "score"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#datatype": [
-              {
-                "@id": "http://www.w3.org/2001/XMLSchema#integer"
-              }
-            ]
           }
         ]
       },
       {
-        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -2381,14 +2588,64 @@
             "@id": "http://a.ml/vocabularies/music_curation#Playlist"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name": [
           {
             "@value": "PlaylistNode"
           }
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+            "@type": [
+              "http://a.ml/vocabularies/meta#NodePropertyMapping",
+              "http://a.ml/vocabularies/document#DomainElement"
+            ],
+            "http://www.w3.org/ns/shacl#path": [
+              {
+                "@id": "http://schema.org/description"
+              }
+            ],
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "description"
+              }
+            ],
+            "http://www.w3.org/ns/shacl#datatype": [
+              {
+                "@id": "http://www.w3.org/2001/XMLSchema#string"
+              }
+            ]
+          },
+          {
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+            "@type": [
+              "http://a.ml/vocabularies/meta#NodePropertyMapping",
+              "http://a.ml/vocabularies/document#DomainElement"
+            ],
+            "http://www.w3.org/ns/shacl#path": [
+              {
+                "@id": "http://a.ml/vocabularies/music_curation#contents"
+              }
+            ],
+            "http://a.ml/vocabularies/core#name": [
+              {
+                "@value": "items"
+              }
+            ],
+            "http://www.w3.org/ns/shacl#node": [
+              {
+                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode/list",
+                "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
+                "http://www.w3.org/2000/01/rdf-schema#_1": [
+                  {
+                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -2398,7 +2655,7 @@
                 "@id": "http://a.ml/vocabularies/music_curation#spotifyId"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "spotifyId"
               }
@@ -2415,34 +2672,29 @@
             ]
           },
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
             "http://www.w3.org/ns/shacl#path": [
               {
-                "@id": "http://a.ml/vocabularies/music_curation#author"
+                "@id": "http://schema.org/dateCreated"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
-                "@value": "author"
+                "@value": "date"
               }
             ],
             "http://www.w3.org/ns/shacl#datatype": [
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#minCount": [
-              {
-                "@value": 1
+                "@id": "http://www.w3.org/2001/XMLSchema#date"
               }
             ]
           },
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -2452,7 +2704,7 @@
                 "@id": "http://schema.org/name"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
                 "@value": "title"
               }
@@ -2469,84 +2721,34 @@
             ]
           },
           {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
             "http://www.w3.org/ns/shacl#path": [
               {
-                "@id": "http://schema.org/description"
+                "@id": "http://a.ml/vocabularies/music_curation#author"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name": [
               {
-                "@value": "description"
+                "@value": "author"
               }
             ],
             "http://www.w3.org/ns/shacl#datatype": [
               {
                 "@id": "http://www.w3.org/2001/XMLSchema#string"
               }
-            ]
-          },
-          {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
-            "@type": [
-              "http://a.ml/vocabularies/meta#NodePropertyMapping",
-              "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#minCount": [
               {
-                "@id": "http://schema.org/dateCreated"
-              }
-            ],
-            "http://schema.org/name": [
-              {
-                "@value": "date"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#datatype": [
-              {
-                "@id": "http://www.w3.org/2001/XMLSchema#date"
-              }
-            ]
-          },
-          {
-            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
-            "@type": [
-              "http://a.ml/vocabularies/meta#NodePropertyMapping",
-              "http://a.ml/vocabularies/document#DomainElement"
-            ],
-            "http://www.w3.org/ns/shacl#path": [
-              {
-                "@id": "http://a.ml/vocabularies/music_curation#contents"
-              }
-            ],
-            "http://schema.org/name": [
-              {
-                "@value": "items"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#node": [
-              {
-                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode/list",
-                "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
-                "http://www.w3.org/2000/01/rdf-schema#_1": [
-                  {
-                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode"
-                  }
-                ]
-              }
-            ],
-            "http://a.ml/vocabularies/meta#mapProperty": [
-              {
-                "@id": "http://a.ml/vocabularies/music_curation#position"
+                "@value": 1
               }
             ]
           }
         ],
-        "http://www.w3.org/ns/hydra/core#template": [
+        "http://a.ml/vocabularies/apiContract#uriTemplate": [
           {
             "@value": "https://api.spotify.com/v1/{author}/playlists/{spotifyId}"
           }

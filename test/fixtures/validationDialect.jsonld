@@ -1,635 +1,627 @@
 [
   {
-    "@id": "file://validation.yaml",
-    "@type": [
+    "@id":"file:///validation.yaml",
+    "@type":[
       "http://a.ml/vocabularies/meta#Dialect",
       "http://a.ml/vocabularies/document#Document",
       "http://a.ml/vocabularies/document#Fragment",
       "http://a.ml/vocabularies/document#Module",
       "http://a.ml/vocabularies/document#Unit"
     ],
-    "http://schema.org/name": [
+    "http://a.ml/vocabularies/core#name":[
       {
-        "@value": "Validation Profile"
+        "@value":"Validation Profile"
       }
     ],
-    "http://schema.org/version": [
+    "http://a.ml/vocabularies/core#version":[
       {
-        "@value": "1.0"
+        "@value":"1.0"
       }
     ],
-    "http://a.ml/vocabularies/meta#externals": [
+    "http://a.ml/vocabularies/meta#externals":[
       {
-        "@id": "file://validation.yaml/externals/schema-org",
-        "@type": [
+        "@id":"file:///validation.yaml/externals/schema-org",
+        "@type":[
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/meta#ExternalVocabulary",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://schema.org/alias": [
+        "http://a.ml/vocabularies/core#displayName":[
           {
-            "@value": "schema-org"
+            "@value":"schema-org"
           }
         ],
-        "http://a.ml/vocabularies/meta#base": [
+        "http://a.ml/vocabularies/meta#base":[
           {
-            "@value": "http://schema.org/"
+            "@value":"http://schema.org/"
           }
         ]
       },
       {
-        "@id": "file://validation.yaml/externals/shacl",
-        "@type": [
+        "@id":"file:///validation.yaml/externals/shacl",
+        "@type":[
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/meta#ExternalVocabulary",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://schema.org/alias": [
+        "http://a.ml/vocabularies/core#displayName":[
           {
-            "@value": "shacl"
+            "@value":"shacl"
           }
         ],
-        "http://a.ml/vocabularies/meta#base": [
+        "http://a.ml/vocabularies/meta#base":[
           {
-            "@value": "http://www.w3.org/ns/shacl#"
+            "@value":"http://www.w3.org/ns/shacl#"
           }
         ]
       },
       {
-        "@id": "file://validation.yaml/externals/validation",
-        "@type": [
+        "@id":"file:///validation.yaml/externals/validation",
+        "@type":[
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/meta#ExternalVocabulary",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://schema.org/alias": [
+        "http://a.ml/vocabularies/core#displayName":[
           {
-            "@value": "validation"
+            "@value":"validation"
           }
         ],
-        "http://a.ml/vocabularies/meta#base": [
+        "http://a.ml/vocabularies/meta#base":[
           {
-            "@value": "http://a.ml/vocabularies/amf-validation#"
+            "@value":"http://a.ml/vocabularies/amf-validation#"
           }
         ]
       }
     ],
-    "http://a.ml/vocabularies/meta#documents": [
+    "http://a.ml/vocabularies/meta#documents":[
       {
-        "@id": "file://validation.yaml/documents",
-        "@type": [
+        "@id":"file:///validation.yaml/documents",
+        "@type":[
           "http://a.ml/vocabularies/meta#DocumentsModel",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://a.ml/vocabularies/meta#rootDocument": [
+        "http://a.ml/vocabularies/meta#rootDocument":[
           {
-            "@id": "file://validation.yaml#/documents/root",
-            "@type": [
+            "@id":"file:///validation.yaml#/documents/root",
+            "@type":[
               "http://a.ml/vocabularies/meta#DocumentMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "Validation Profile 1.0"
+                "@value":"Validation Profile 1.0"
               }
             ],
-            "http://a.ml/vocabularies/meta#encodedNode": [
+            "http://a.ml/vocabularies/meta#encodedNode":[
               {
-                "@id": "file://validation.yaml#/declarations/profileNode"
+                "@id":"file:///validation.yaml#/declarations/profileNode"
               }
             ]
           }
         ],
-        "http://a.ml/vocabularies/meta#fragments": [
+        "http://a.ml/vocabularies/meta#fragments":[
           {
-            "@id": "file://validation.yaml#/documents/fragments/Validation",
-            "@type": [
+            "@id":"file:///validation.yaml#/documents/fragments/Validation",
+            "@type":[
               "http://a.ml/vocabularies/meta#DocumentMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://a.ml/vocabularies/meta#name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "Validation"
+                "@value":"Validation"
               }
             ],
-            "http://a.ml/vocabularies/meta#encodedNode": [
+            "http://a.ml/vocabularies/meta#encodedNode":[
               {
-                "@id": "file://validation.yaml#/declarations/queryValidationNode"
+                "@id":"file:///validation.yaml#/declarations/queryValidationNode"
               }
             ]
           }
         ]
       }
     ],
-    "http://a.ml/vocabularies/document#usage": [
+    "http://a.ml/vocabularies/document#location":[
       {
-        "@value": "Dialect to describe validations over RAML documents"
+        "@value":"http://a.ml/amf/default_document"
       }
     ],
-    "http://a.ml/vocabularies/document#declares": [
+    "http://a.ml/vocabularies/document#version":[
       {
-        "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-        "@type": [
+        "@value":"2.0.1"
+      }
+    ],
+    "http://a.ml/vocabularies/document#usage":[
+      {
+        "@value":"Dialect to describe validations over RAML documents"
+      }
+    ],
+    "http://a.ml/vocabularies/document#root":[
+      {
+        "@value":true
+      }
+    ],
+    "http://a.ml/vocabularies/document#declares":[
+      {
+        "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+        "@type":[
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://www.w3.org/ns/shacl#targetClass": [
+        "http://www.w3.org/ns/shacl#targetClass":[
           {
-            "@id": "http://www.w3.org/ns/shacl#PropertyShape"
+            "@id":"http://www.w3.org/ns/shacl#PropertyShape"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name":[
           {
-            "@value": "propertyConstraintNode"
+            "@value":"propertyConstraintNode"
           }
         ],
-        "http://www.w3.org/ns/shacl#property": [
+        "http://www.w3.org/ns/shacl#property":[
           {
-            "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#message"
+                "@id":"http://www.w3.org/ns/shacl#minExclusive"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "message"
+                "@value":"minExclusive"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://a.ml/vocabularies/shapes#number"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://a.ml/vocabularies/amf-validation#ramlPropertyId"
+                "@id":"http://www.w3.org/ns/shacl#message"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "name"
+                "@value":"message"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#minCount": [
-              {
-                "@value": 1
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#pattern"
+                "@id":"http://www.w3.org/ns/shacl#maxInclusive"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "pattern"
+                "@value":"maxInclusive"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://a.ml/vocabularies/shapes#number"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#maxCount"
+                "@id":"http://www.w3.org/ns/shacl#maxCount"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "maxCount"
+                "@value":"maxCount"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://a.ml/vocabularies/shapes#number"
+                "@id":"http://a.ml/vocabularies/shapes#number"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#minCount"
+                "@id":"http://www.w3.org/ns/shacl#pattern"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "minCount"
+                "@value":"pattern"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://a.ml/vocabularies/shapes#number"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#minExclusive"
+                "@id":"http://www.w3.org/ns/shacl#minCount"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "minExclusive"
+                "@value":"minCount"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://a.ml/vocabularies/shapes#number"
+                "@id":"http://a.ml/vocabularies/shapes#number"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#maxExclusive"
+                "@id":"http://www.w3.org/ns/shacl#minInclusive"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "maxExclusive"
+                "@value":"minInclusive"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://a.ml/vocabularies/shapes#number"
+                "@id":"http://a.ml/vocabularies/shapes#number"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#minInclusive"
+                "@id":"http://a.ml/vocabularies/amf-validation#ramlPropertyId"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "minInclusive"
+                "@value":"name"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://a.ml/vocabularies/shapes#number"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
+              }
+            ],
+            "http://www.w3.org/ns/shacl#minCount":[
+              {
+                "@value":1
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#maxInclusive"
+                "@id":"http://www.w3.org/ns/shacl#maxExclusive"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "maxInclusive"
+                "@value":"maxExclusive"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://a.ml/vocabularies/shapes#number"
+                "@id":"http://a.ml/vocabularies/shapes#number"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/propertyConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/propertyConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#in"
+                "@id":"http://www.w3.org/ns/shacl#in"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "in"
+                "@value":"in"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ],
-            "http://a.ml/vocabularies/meta#allowMultiple": [
+            "http://a.ml/vocabularies/meta#allowMultiple":[
               {
-                "@value": true
+                "@value":true
               }
             ]
           }
         ]
       },
       {
-        "@id": "http://schema.org/name",
-        "@type": [
-          "http://www.w3.org/2002/07/owl#DatatypeProperty",
-          "http://a.ml/vocabularies/meta#Property",
-          "http://a.ml/vocabularies/document#DomainElement"
-        ],
-        "http://a.ml/vocabularies/meta#displayName": [
-          {
-            "@value": "default value String"
-          }
-        ],
-        "http://schema.org/description": [
-          {
-            "@value": "Textual representation"
-          }
-        ],
-        "http://www.w3.org/2000/01/rdf-schema#range": [
-          {
-            "@id": "http://www.w3.org/2001/XMLSchema#string"
-          }
-        ]
-      },
-      {
-        "@id": "file://validation.yaml#/declarations/profileNode",
-        "@type": [
+        "@id":"file:///validation.yaml#/declarations/profileNode",
+        "@type":[
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://www.w3.org/ns/shacl#targetClass": [
+        "http://www.w3.org/ns/shacl#targetClass":[
           {
-            "@id": "http://a.ml/vocabularies/amf-validation#Profile"
+            "@id":"http://a.ml/vocabularies/amf-validation#Profile"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name":[
           {
-            "@value": "profileNode"
+            "@value":"profileNode"
           }
         ],
-        "http://www.w3.org/ns/shacl#property": [
+        "http://www.w3.org/ns/shacl#property":[
           {
-            "@id": "file://validation.yaml#/declarations/profileNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/profileNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://schema.org/name"
+                "@id":"http://a.ml/vocabularies/amf-validation#setSeverityInfo"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "profile"
+                "@value":"info"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ],
-            "http://www.w3.org/ns/shacl#minCount": [
+            "http://a.ml/vocabularies/meta#allowMultiple":[
               {
-                "@value": 1
+                "@value":true
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/profileNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/profileNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://schema.org/description"
+                "@id":"http://schema.org/description"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "description"
+                "@value":"description"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/profileNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/profileNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://a.ml/vocabularies/amf-validation#extendsProfile"
+                "@id":"http://a.ml/vocabularies/amf-validation#extendsProfile"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "extends"
+                "@value":"extends"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/profileNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/profileNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://a.ml/vocabularies/amf-validation#setSeverityViolation"
+                "@id":"http://a.ml/vocabularies/amf-validation#setSeverityWarning"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "violation"
+                "@value":"warning"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ],
-            "http://a.ml/vocabularies/meta#allowMultiple": [
+            "http://a.ml/vocabularies/meta#allowMultiple":[
               {
-                "@value": true
+                "@value":true
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/profileNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/profileNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://a.ml/vocabularies/amf-validation#setSeverityInfo"
+                "@id":"http://a.ml/vocabularies/amf-validation#disableValidation"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "info"
+                "@value":"disabled"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ],
-            "http://a.ml/vocabularies/meta#allowMultiple": [
+            "http://a.ml/vocabularies/meta#allowMultiple":[
               {
-                "@value": true
+                "@value":true
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/profileNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/profileNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://a.ml/vocabularies/amf-validation#setSeverityWarning"
+                "@id":"http://schema.org/name"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "warning"
+                "@value":"profile"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ],
-            "http://a.ml/vocabularies/meta#allowMultiple": [
+            "http://www.w3.org/ns/shacl#minCount":[
               {
-                "@value": true
+                "@value":1
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/profileNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/profileNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://a.ml/vocabularies/amf-validation#disableValidation"
+                "@id":"http://a.ml/vocabularies/amf-validation#setSeverityViolation"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "disabled"
+                "@value":"violation"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ],
-            "http://a.ml/vocabularies/meta#allowMultiple": [
+            "http://a.ml/vocabularies/meta#allowMultiple":[
               {
-                "@value": true
+                "@value":true
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/profileNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/profileNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://a.ml/vocabularies/amf-validation#validations"
+                "@id":"http://a.ml/vocabularies/amf-validation#validations"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "validations"
+                "@value":"validations"
               }
             ],
-            "http://www.w3.org/ns/shacl#node": [
+            "http://www.w3.org/ns/shacl#node":[
               {
-                "@id": "file://validation.yaml#/declarations/profileNode/list",
-                "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
-                "http://www.w3.org/2000/01/rdf-schema#_1": [
+                "@id":"file:///validation.yaml#/declarations/profileNode/list",
+                "@type":"http://www.w3.org/2000/01/rdf-schema#Seq",
+                "http://www.w3.org/2000/01/rdf-schema#_1":[
                   {
-                    "@id": "file://validation.yaml#/declarations/shapeValidationNode"
+                    "@id":"file:///validation.yaml#/declarations/shapeValidationNode"
                   }
                 ],
-                "http://www.w3.org/2000/01/rdf-schema#_2": [
+                "http://www.w3.org/2000/01/rdf-schema#_2":[
                   {
-                    "@id": "file://validation.yaml#/declarations/queryValidationNode"
+                    "@id":"file:///validation.yaml#/declarations/queryValidationNode"
                   }
                 ],
-                "http://www.w3.org/2000/01/rdf-schema#_3": [
+                "http://www.w3.org/2000/01/rdf-schema#_3":[
                   {
-                    "@id": "file://validation.yaml#/declarations/functionValidationNode"
+                    "@id":"file:///validation.yaml#/declarations/functionValidationNode"
                   }
                 ]
               }
@@ -638,507 +630,507 @@
         ]
       },
       {
-        "@id": "file://validation.yaml#/declarations/functionValidationNode",
-        "@type": [
+        "@id":"file:///validation.yaml#/declarations/functionValidationNode",
+        "@type":[
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://www.w3.org/ns/shacl#targetClass": [
+        "http://www.w3.org/ns/shacl#targetClass":[
           {
-            "@id": "http://a.ml/vocabularies/amf-validation#FunctionValidation"
+            "@id":"http://a.ml/vocabularies/amf-validation#FunctionValidation"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name":[
           {
-            "@value": "functionValidationNode"
+            "@value":"functionValidationNode"
           }
         ],
-        "http://www.w3.org/ns/shacl#property": [
+        "http://www.w3.org/ns/shacl#property":[
           {
-            "@id": "file://validation.yaml#/declarations/functionValidationNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/functionValidationNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://schema.org/name"
+                "@id":"http://schema.org/name"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "name"
+                "@value":"name"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/functionValidationNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/functionValidationNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#message"
+                "@id":"http://www.w3.org/ns/shacl#js"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "message"
+                "@value":"functionConstraint"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#node":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
-              }
-            ]
-          },
-          {
-            "@id": "file://validation.yaml#/declarations/functionValidationNode",
-            "@type": [
-              "http://a.ml/vocabularies/meta#NodePropertyMapping",
-              "http://a.ml/vocabularies/document#DomainElement"
-            ],
-            "http://www.w3.org/ns/shacl#path": [
-              {
-                "@id": "http://a.ml/vocabularies/amf-validation#ramlClassId"
-              }
-            ],
-            "http://schema.org/name": [
-              {
-                "@value": "targetClass"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#datatype": [
-              {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
-              }
-            ],
-            "http://a.ml/vocabularies/meta#allowMultiple": [
-              {
-                "@value": true
-              }
-            ]
-          },
-          {
-            "@id": "file://validation.yaml#/declarations/functionValidationNode",
-            "@type": [
-              "http://a.ml/vocabularies/meta#NodePropertyMapping",
-              "http://a.ml/vocabularies/document#DomainElement"
-            ],
-            "http://www.w3.org/ns/shacl#path": [
-              {
-                "@id": "http://www.w3.org/ns/shacl#js"
-              }
-            ],
-            "http://schema.org/name": [
-              {
-                "@value": "functionConstraint"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#node": [
-              {
-                "@id": "file://validation.yaml#/declarations/functionValidationNode/list",
-                "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
-                "http://www.w3.org/2000/01/rdf-schema#_1": [
+                "@id":"file:///validation.yaml#/declarations/functionValidationNode/list",
+                "@type":"http://www.w3.org/2000/01/rdf-schema#Seq",
+                "http://www.w3.org/2000/01/rdf-schema#_1":[
                   {
-                    "@id": "file://validation.yaml#/declarations/functionConstraintNode"
+                    "@id":"file:///validation.yaml#/declarations/functionConstraintNode"
                   }
                 ]
               }
             ],
-            "http://www.w3.org/ns/shacl#minCount": [
+            "http://www.w3.org/ns/shacl#minCount":[
               {
-                "@value": 1
+                "@value":1
+              }
+            ]
+          },
+          {
+            "@id":"file:///validation.yaml#/declarations/functionValidationNode",
+            "@type":[
+              "http://a.ml/vocabularies/meta#NodePropertyMapping",
+              "http://a.ml/vocabularies/document#DomainElement"
+            ],
+            "http://www.w3.org/ns/shacl#path":[
+              {
+                "@id":"http://www.w3.org/ns/shacl#message"
+              }
+            ],
+            "http://a.ml/vocabularies/core#name":[
+              {
+                "@value":"message"
+              }
+            ],
+            "http://www.w3.org/ns/shacl#datatype":[
+              {
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
+              }
+            ]
+          },
+          {
+            "@id":"file:///validation.yaml#/declarations/functionValidationNode",
+            "@type":[
+              "http://a.ml/vocabularies/meta#NodePropertyMapping",
+              "http://a.ml/vocabularies/document#DomainElement"
+            ],
+            "http://www.w3.org/ns/shacl#path":[
+              {
+                "@id":"http://a.ml/vocabularies/amf-validation#ramlClassId"
+              }
+            ],
+            "http://a.ml/vocabularies/core#name":[
+              {
+                "@value":"targetClass"
+              }
+            ],
+            "http://www.w3.org/ns/shacl#datatype":[
+              {
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
+              }
+            ],
+            "http://a.ml/vocabularies/meta#allowMultiple":[
+              {
+                "@value":true
               }
             ]
           }
         ]
       },
       {
-        "@id": "file://validation.yaml#/declarations/functionConstraintNode",
-        "@type": [
+        "@id":"file:///validation.yaml#/declarations/functionConstraintNode",
+        "@type":[
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://www.w3.org/ns/shacl#targetClass": [
+        "http://www.w3.org/ns/shacl#targetClass":[
           {
-            "@id": "http://www.w3.org/ns/shacl#JSConstraint"
+            "@id":"http://www.w3.org/ns/shacl#JSConstraint"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name":[
           {
-            "@value": "functionConstraintNode"
+            "@value":"functionConstraintNode"
           }
         ],
-        "http://www.w3.org/ns/shacl#property": [
+        "http://www.w3.org/ns/shacl#property":[
           {
-            "@id": "file://validation.yaml#/declarations/functionConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/functionConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#message"
+                "@id":"http://www.w3.org/ns/shacl#jsFunctionName"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "message"
+                "@value":"functionName"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/functionConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/functionConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://a.ml/vocabularies/amf-validation#jsCode"
+                "@id":"http://a.ml/vocabularies/amf-validation#jsCode"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "code"
+                "@value":"code"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/functionConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/functionConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#jsLibrary"
+                "@id":"http://www.w3.org/ns/shacl#jsLibrary"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "libraries"
+                "@value":"libraries"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ],
-            "http://a.ml/vocabularies/meta#allowMultiple": [
+            "http://a.ml/vocabularies/meta#allowMultiple":[
               {
-                "@value": true
+                "@value":true
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/functionConstraintNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/functionConstraintNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#jsFunctionName"
+                "@id":"http://www.w3.org/ns/shacl#message"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "functionName"
+                "@value":"message"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           }
         ]
       },
       {
-        "@id": "file://validation.yaml#/declarations/shapeValidationNode",
-        "@type": [
+        "@id":"file:///validation.yaml#/declarations/shapeValidationNode",
+        "@type":[
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://www.w3.org/ns/shacl#targetClass": [
+        "http://www.w3.org/ns/shacl#targetClass":[
           {
-            "@id": "http://a.ml/vocabularies/amf-validation#ShapeValidation"
+            "@id":"http://a.ml/vocabularies/amf-validation#ShapeValidation"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name":[
           {
-            "@value": "shapeValidationNode"
+            "@value":"shapeValidationNode"
           }
         ],
-        "http://www.w3.org/ns/shacl#property": [
+        "http://www.w3.org/ns/shacl#property":[
           {
-            "@id": "file://validation.yaml#/declarations/shapeValidationNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/shapeValidationNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://schema.org/name"
+                "@id":"http://schema.org/name"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "name"
+                "@value":"name"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/shapeValidationNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/shapeValidationNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#message"
+                "@id":"http://www.w3.org/ns/shacl#message"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "message"
+                "@value":"message"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/shapeValidationNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/shapeValidationNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://a.ml/vocabularies/amf-validation#ramlClassId"
+                "@id":"http://a.ml/vocabularies/amf-validation#ramlClassId"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "targetClass"
+                "@value":"targetClass"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ],
-            "http://a.ml/vocabularies/meta#allowMultiple": [
+            "http://a.ml/vocabularies/meta#allowMultiple":[
               {
-                "@value": true
+                "@value":true
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/shapeValidationNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/shapeValidationNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#property"
+                "@id":"http://www.w3.org/ns/shacl#property"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "propertyConstraints"
+                "@value":"propertyConstraints"
               }
             ],
-            "http://www.w3.org/ns/shacl#node": [
+            "http://www.w3.org/ns/shacl#node":[
               {
-                "@id": "file://validation.yaml#/declarations/shapeValidationNode/list",
-                "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
-                "http://www.w3.org/2000/01/rdf-schema#_1": [
+                "@id":"file:///validation.yaml#/declarations/shapeValidationNode/list",
+                "@type":"http://www.w3.org/2000/01/rdf-schema#Seq",
+                "http://www.w3.org/2000/01/rdf-schema#_1":[
                   {
-                    "@id": "file://validation.yaml#/declarations/propertyConstraintNode"
+                    "@id":"file:///validation.yaml#/declarations/propertyConstraintNode"
                   }
                 ]
               }
             ],
-            "http://www.w3.org/ns/shacl#minCount": [
+            "http://www.w3.org/ns/shacl#minCount":[
               {
-                "@value": 1
+                "@value":1
               }
             ]
           }
         ]
       },
       {
-        "@id": "file://validation.yaml#/declarations/queryValidationNode",
-        "@type": [
+        "@id":"file:///validation.yaml#/declarations/queryValidationNode",
+        "@type":[
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
-        "http://www.w3.org/ns/shacl#targetClass": [
+        "http://www.w3.org/ns/shacl#targetClass":[
           {
-            "@id": "http://a.ml/vocabularies/amf-validation#QueryValidation"
+            "@id":"http://a.ml/vocabularies/amf-validation#QueryValidation"
           }
         ],
-        "http://schema.org/name": [
+        "http://a.ml/vocabularies/core#name":[
           {
-            "@value": "queryValidationNode"
+            "@value":"queryValidationNode"
           }
         ],
-        "http://www.w3.org/ns/shacl#property": [
+        "http://www.w3.org/ns/shacl#property":[
           {
-            "@id": "file://validation.yaml#/declarations/queryValidationNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/queryValidationNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://schema.org/name"
+                "@id":"http://www.w3.org/ns/shacl#message"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "name"
+                "@value":"message"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/queryValidationNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/queryValidationNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#message"
+                "@id":"http://a.ml/vocabularies/amf-validation#ramlClassId"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "message"
+                "@value":"targetClass"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
+              }
+            ],
+            "http://a.ml/vocabularies/meta#allowMultiple":[
+              {
+                "@value":true
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/queryValidationNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/queryValidationNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://a.ml/vocabularies/amf-validation#ramlClassId"
+                "@id":"http://a.ml/vocabularies/amf-validation#targetQuery"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "targetClass"
+                "@value":"targetQuery"
               }
             ],
-            "http://www.w3.org/ns/shacl#datatype": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
               }
             ],
-            "http://a.ml/vocabularies/meta#allowMultiple": [
+            "http://www.w3.org/ns/shacl#minCount":[
               {
-                "@value": true
+                "@value":1
               }
             ]
           },
           {
-            "@id": "file://validation.yaml#/declarations/queryValidationNode",
-            "@type": [
+            "@id":"file:///validation.yaml#/declarations/queryValidationNode",
+            "@type":[
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
-            "http://www.w3.org/ns/shacl#path": [
+            "http://www.w3.org/ns/shacl#path":[
               {
-                "@id": "http://www.w3.org/ns/shacl#property"
+                "@id":"http://schema.org/name"
               }
             ],
-            "http://schema.org/name": [
+            "http://a.ml/vocabularies/core#name":[
               {
-                "@value": "propertyConstraints"
+                "@value":"name"
               }
             ],
-            "http://www.w3.org/ns/shacl#node": [
+            "http://www.w3.org/ns/shacl#datatype":[
               {
-                "@id": "file://validation.yaml#/declarations/queryValidationNode/list",
-                "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
-                "http://www.w3.org/2000/01/rdf-schema#_1": [
+                "@id":"http://www.w3.org/2001/XMLSchema#string"
+              }
+            ]
+          },
+          {
+            "@id":"file:///validation.yaml#/declarations/queryValidationNode",
+            "@type":[
+              "http://a.ml/vocabularies/meta#NodePropertyMapping",
+              "http://a.ml/vocabularies/document#DomainElement"
+            ],
+            "http://www.w3.org/ns/shacl#path":[
+              {
+                "@id":"http://www.w3.org/ns/shacl#property"
+              }
+            ],
+            "http://a.ml/vocabularies/core#name":[
+              {
+                "@value":"propertyConstraints"
+              }
+            ],
+            "http://www.w3.org/ns/shacl#node":[
+              {
+                "@id":"file:///validation.yaml#/declarations/queryValidationNode/list",
+                "@type":"http://www.w3.org/2000/01/rdf-schema#Seq",
+                "http://www.w3.org/2000/01/rdf-schema#_1":[
                   {
-                    "@id": "file://validation.yaml#/declarations/propertyConstraintNode"
+                    "@id":"file:///validation.yaml#/declarations/propertyConstraintNode"
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "@id": "file://validation.yaml#/declarations/queryValidationNode",
-            "@type": [
-              "http://a.ml/vocabularies/meta#NodePropertyMapping",
-              "http://a.ml/vocabularies/document#DomainElement"
-            ],
-            "http://www.w3.org/ns/shacl#path": [
-              {
-                "@id": "http://a.ml/vocabularies/amf-validation#targetQuery"
-              }
-            ],
-            "http://schema.org/name": [
-              {
-                "@value": "targetQuery"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#datatype": [
-              {
-                "@id": "http://www.w3.org/2001/XMLSchema#string"
-              }
-            ],
-            "http://www.w3.org/ns/shacl#minCount": [
-              {
-                "@value": 1
               }
             ]
           }
