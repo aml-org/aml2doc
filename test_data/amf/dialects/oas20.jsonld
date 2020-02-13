@@ -1,6 +1,6 @@
 [
   {
-    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml",
+    "@id": "file://test_data/amf/dialects/oas20.yaml",
     "@type": [
       "http://a.ml/vocabularies/meta#Dialect",
       "http://a.ml/vocabularies/document#Document",
@@ -20,7 +20,7 @@
     ],
     "http://a.ml/vocabularies/meta#externals": [
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml/externals/hydra",
+        "@id": "file://test_data/amf/dialects/oas20.yaml/externals/hydra",
         "@type": [
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -38,7 +38,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml/externals/schema-org",
+        "@id": "file://test_data/amf/dialects/oas20.yaml/externals/schema-org",
         "@type": [
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml/externals/owl",
+        "@id": "file://test_data/amf/dialects/oas20.yaml/externals/owl",
         "@type": [
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -74,7 +74,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml/externals/shacl",
+        "@id": "file://test_data/amf/dialects/oas20.yaml/externals/shacl",
         "@type": [
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -92,7 +92,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml/externals/meta",
+        "@id": "file://test_data/amf/dialects/oas20.yaml/externals/meta",
         "@type": [
           "http://www.w3.org/2002/07/owl#Ontology",
           "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -112,14 +112,14 @@
     ],
     "http://a.ml/vocabularies/meta#documents": [
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml/documents",
+        "@id": "file://test_data/amf/dialects/oas20.yaml/documents",
         "@type": [
           "http://a.ml/vocabularies/meta#DocumentsModel",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
         "http://a.ml/vocabularies/meta#rootDocument": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/documents/root",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/documents/root",
             "@type": [
               "http://a.ml/vocabularies/meta#DocumentMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -131,12 +131,12 @@
             ],
             "http://a.ml/vocabularies/meta#encodedNode": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject"
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject"
               }
             ],
             "http://a.ml/vocabularies/meta#declaredNode": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/documents/declaration/definitions",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/documents/declaration/definitions",
                 "@type": [
                   "http://a.ml/vocabularies/meta#PublicNodeMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -148,12 +148,12 @@
                 ],
                 "http://a.ml/vocabularies/meta#mappedNode": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
                   }
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/documents/declaration/parameters",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/documents/declaration/parameters",
                 "@type": [
                   "http://a.ml/vocabularies/meta#PublicNodeMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -165,12 +165,12 @@
                 ],
                 "http://a.ml/vocabularies/meta#mappedNode": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject"
                   }
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/documents/declaration/responses",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/documents/declaration/responses",
                 "@type": [
                   "http://a.ml/vocabularies/meta#PublicNodeMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -182,7 +182,7 @@
                 ],
                 "http://a.ml/vocabularies/meta#mappedNode": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject"
                   }
                 ]
               }
@@ -208,7 +208,7 @@
     ],
     "http://a.ml/vocabularies/document#references": [
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml",
+        "@id": "file://test_data/amf/vocabularies/security.yaml",
         "@type": [
           "http://a.ml/vocabularies/meta#Vocabulary",
           "http://www.w3.org/2002/07/owl#Ontology",
@@ -216,7 +216,7 @@
         ],
         "http://www.w3.org/2002/07/owl#imports": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml/vocabularyReference/doc",
+            "@id": "file://test_data/amf/vocabularies/security.yaml/vocabularyReference/doc",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -228,7 +228,7 @@
             ],
             "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -238,7 +238,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml/vocabularyReference/data",
+            "@id": "file://test_data/amf/vocabularies/security.yaml/vocabularyReference/data",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -250,7 +250,7 @@
             ],
             "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml"
+                "@value": "file://test_data/amf/vocabularies/data_model.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -262,7 +262,7 @@
         ],
         "http://a.ml/vocabularies/meta#externals": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml/externals/schema-org",
+            "@id": "file://test_data/amf/vocabularies/security.yaml/externals/schema-org",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -280,7 +280,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml/externals/hydra",
+            "@id": "file://test_data/amf/vocabularies/security.yaml/externals/hydra",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -298,7 +298,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml/externals/shacl",
+            "@id": "file://test_data/amf/vocabularies/security.yaml/externals/shacl",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -1154,7 +1154,7 @@
         ],
         "http://a.ml/vocabularies/document#location": [
           {
-            "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml"
+            "@value": "file://test_data/amf/vocabularies/security.yaml"
           }
         ],
         "http://a.ml/vocabularies/document#version": [
@@ -1164,7 +1164,7 @@
         ],
         "http://a.ml/vocabularies/document#references": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml",
+            "@id": "file://test_data/amf/vocabularies/aml_doc.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -1172,7 +1172,7 @@
             ],
             "http://www.w3.org/2002/07/owl#imports": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
                 "@type": [
                   "http://a.ml/vocabularies/meta#VocabularyReference",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1184,7 +1184,7 @@
                 ],
                 "http://a.ml/vocabularies/document#reference": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                    "@value": "file://test_data/amf/vocabularies/meta.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#base": [
@@ -1196,7 +1196,7 @@
             ],
             "http://a.ml/vocabularies/meta#externals": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -1214,7 +1214,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -1232,7 +1232,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -1250,7 +1250,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -2742,7 +2742,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -2752,7 +2752,7 @@
             ],
             "http://a.ml/vocabularies/document#references": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml",
+                "@id": "file://test_data/amf/vocabularies/meta.yaml",
                 "@type": [
                   "http://a.ml/vocabularies/meta#Vocabulary",
                   "http://www.w3.org/2002/07/owl#Ontology",
@@ -2790,7 +2790,7 @@
                 ],
                 "http://a.ml/vocabularies/document#location": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                    "@value": "file://test_data/amf/vocabularies/meta.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/document#version": [
@@ -2822,7 +2822,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml",
+            "@id": "file://test_data/amf/vocabularies/data_model.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -2830,7 +2830,7 @@
             ],
             "http://www.w3.org/2002/07/owl#imports": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/vocabularyReference/doc",
+                "@id": "file://test_data/amf/vocabularies/data_model.yaml/vocabularyReference/doc",
                 "@type": [
                   "http://a.ml/vocabularies/meta#VocabularyReference",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -2842,7 +2842,7 @@
                 ],
                 "http://a.ml/vocabularies/document#reference": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                    "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#base": [
@@ -2854,7 +2854,7 @@
             ],
             "http://a.ml/vocabularies/meta#externals": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/externals/rdf",
+                "@id": "file://test_data/amf/vocabularies/data_model.yaml/externals/rdf",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -2872,7 +2872,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/externals/schema-org",
+                "@id": "file://test_data/amf/vocabularies/data_model.yaml/externals/schema-org",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -3156,7 +3156,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml"
+                "@value": "file://test_data/amf/vocabularies/data_model.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -3166,7 +3166,7 @@
             ],
             "http://a.ml/vocabularies/document#references": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml",
                 "@type": [
                   "http://a.ml/vocabularies/meta#Vocabulary",
                   "http://www.w3.org/2002/07/owl#Ontology",
@@ -3174,7 +3174,7 @@
                 ],
                 "http://www.w3.org/2002/07/owl#imports": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
                     "@type": [
                       "http://a.ml/vocabularies/meta#VocabularyReference",
                       "http://a.ml/vocabularies/document#DomainElement"
@@ -3186,7 +3186,7 @@
                     ],
                     "http://a.ml/vocabularies/document#reference": [
                       {
-                        "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                        "@value": "file://test_data/amf/vocabularies/meta.yaml"
                       }
                     ],
                     "http://a.ml/vocabularies/meta#base": [
@@ -3198,7 +3198,7 @@
                 ],
                 "http://a.ml/vocabularies/meta#externals": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -3216,7 +3216,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -3234,7 +3234,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -3252,7 +3252,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -4744,7 +4744,7 @@
                 ],
                 "http://a.ml/vocabularies/document#location": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                    "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/document#version": [
@@ -4754,7 +4754,7 @@
                 ],
                 "http://a.ml/vocabularies/document#references": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml",
+                    "@id": "file://test_data/amf/vocabularies/meta.yaml",
                     "@type": [
                       "http://a.ml/vocabularies/meta#Vocabulary",
                       "http://www.w3.org/2002/07/owl#Ontology",
@@ -4792,7 +4792,7 @@
                     ],
                     "http://a.ml/vocabularies/document#location": [
                       {
-                        "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                        "@value": "file://test_data/amf/vocabularies/meta.yaml"
                       }
                     ],
                     "http://a.ml/vocabularies/document#version": [
@@ -4848,7 +4848,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml",
+        "@id": "file://test_data/amf/vocabularies/aml_doc.yaml",
         "@type": [
           "http://a.ml/vocabularies/meta#Vocabulary",
           "http://www.w3.org/2002/07/owl#Ontology",
@@ -4856,7 +4856,7 @@
         ],
         "http://www.w3.org/2002/07/owl#imports": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
+            "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -4868,7 +4868,7 @@
             ],
             "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                "@value": "file://test_data/amf/vocabularies/meta.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -4880,7 +4880,7 @@
         ],
         "http://a.ml/vocabularies/meta#externals": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
+            "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -4898,7 +4898,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
+            "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -4916,7 +4916,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
+            "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -4934,7 +4934,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
+            "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -6426,7 +6426,7 @@
         ],
         "http://a.ml/vocabularies/document#location": [
           {
-            "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+            "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
           }
         ],
         "http://a.ml/vocabularies/document#version": [
@@ -6436,7 +6436,7 @@
         ],
         "http://a.ml/vocabularies/document#references": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml",
+            "@id": "file://test_data/amf/vocabularies/meta.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -6474,7 +6474,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                "@value": "file://test_data/amf/vocabularies/meta.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -6506,7 +6506,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/http.yaml",
+        "@id": "file://test_data/amf/vocabularies/http.yaml",
         "@type": [
           "http://a.ml/vocabularies/meta#Vocabulary",
           "http://www.w3.org/2002/07/owl#Ontology",
@@ -6514,7 +6514,7 @@
         ],
         "http://www.w3.org/2002/07/owl#imports": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/http.yaml/vocabularyReference/doc",
+            "@id": "file://test_data/amf/vocabularies/http.yaml/vocabularyReference/doc",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -6526,7 +6526,7 @@
             ],
             "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -6536,7 +6536,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/http.yaml/vocabularyReference/data",
+            "@id": "file://test_data/amf/vocabularies/http.yaml/vocabularyReference/data",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -6548,7 +6548,7 @@
             ],
             "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml"
+                "@value": "file://test_data/amf/vocabularies/data_model.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -6558,7 +6558,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/http.yaml/vocabularyReference/security",
+            "@id": "file://test_data/amf/vocabularies/http.yaml/vocabularyReference/security",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -6570,7 +6570,7 @@
             ],
             "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml"
+                "@value": "file://test_data/amf/vocabularies/security.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -6580,7 +6580,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/http.yaml/vocabularyReference/meta",
+            "@id": "file://test_data/amf/vocabularies/http.yaml/vocabularyReference/meta",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -6592,7 +6592,7 @@
             ],
             "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                "@value": "file://test_data/amf/vocabularies/meta.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -6604,7 +6604,7 @@
         ],
         "http://a.ml/vocabularies/meta#externals": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/http.yaml/externals/schema-org",
+            "@id": "file://test_data/amf/vocabularies/http.yaml/externals/schema-org",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -6622,7 +6622,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/http.yaml/externals/hydra",
+            "@id": "file://test_data/amf/vocabularies/http.yaml/externals/hydra",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -6640,7 +6640,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/http.yaml/externals/shacl",
+            "@id": "file://test_data/amf/vocabularies/http.yaml/externals/shacl",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -8845,7 +8845,7 @@
         ],
         "http://a.ml/vocabularies/document#location": [
           {
-            "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/http.yaml"
+            "@value": "file://test_data/amf/vocabularies/http.yaml"
           }
         ],
         "http://a.ml/vocabularies/document#version": [
@@ -8855,7 +8855,7 @@
         ],
         "http://a.ml/vocabularies/document#references": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml",
+            "@id": "file://test_data/amf/vocabularies/security.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -8863,7 +8863,7 @@
             ],
             "http://www.w3.org/2002/07/owl#imports": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml/vocabularyReference/doc",
+                "@id": "file://test_data/amf/vocabularies/security.yaml/vocabularyReference/doc",
                 "@type": [
                   "http://a.ml/vocabularies/meta#VocabularyReference",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -8875,7 +8875,7 @@
                 ],
                 "http://a.ml/vocabularies/document#reference": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                    "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#base": [
@@ -8885,7 +8885,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml/vocabularyReference/data",
+                "@id": "file://test_data/amf/vocabularies/security.yaml/vocabularyReference/data",
                 "@type": [
                   "http://a.ml/vocabularies/meta#VocabularyReference",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -8897,7 +8897,7 @@
                 ],
                 "http://a.ml/vocabularies/document#reference": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml"
+                    "@value": "file://test_data/amf/vocabularies/data_model.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#base": [
@@ -8909,7 +8909,7 @@
             ],
             "http://a.ml/vocabularies/meta#externals": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml/externals/schema-org",
+                "@id": "file://test_data/amf/vocabularies/security.yaml/externals/schema-org",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -8927,7 +8927,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml/externals/hydra",
+                "@id": "file://test_data/amf/vocabularies/security.yaml/externals/hydra",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -8945,7 +8945,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml/externals/shacl",
+                "@id": "file://test_data/amf/vocabularies/security.yaml/externals/shacl",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -9801,7 +9801,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/security.yaml"
+                "@value": "file://test_data/amf/vocabularies/security.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -9811,7 +9811,7 @@
             ],
             "http://a.ml/vocabularies/document#references": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml",
                 "@type": [
                   "http://a.ml/vocabularies/meta#Vocabulary",
                   "http://www.w3.org/2002/07/owl#Ontology",
@@ -9819,7 +9819,7 @@
                 ],
                 "http://www.w3.org/2002/07/owl#imports": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
                     "@type": [
                       "http://a.ml/vocabularies/meta#VocabularyReference",
                       "http://a.ml/vocabularies/document#DomainElement"
@@ -9831,7 +9831,7 @@
                     ],
                     "http://a.ml/vocabularies/document#reference": [
                       {
-                        "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                        "@value": "file://test_data/amf/vocabularies/meta.yaml"
                       }
                     ],
                     "http://a.ml/vocabularies/meta#base": [
@@ -9843,7 +9843,7 @@
                 ],
                 "http://a.ml/vocabularies/meta#externals": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -9861,7 +9861,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -9879,7 +9879,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -9897,7 +9897,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -11389,7 +11389,7 @@
                 ],
                 "http://a.ml/vocabularies/document#location": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                    "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/document#version": [
@@ -11399,7 +11399,7 @@
                 ],
                 "http://a.ml/vocabularies/document#references": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml",
+                    "@id": "file://test_data/amf/vocabularies/meta.yaml",
                     "@type": [
                       "http://a.ml/vocabularies/meta#Vocabulary",
                       "http://www.w3.org/2002/07/owl#Ontology",
@@ -11437,7 +11437,7 @@
                     ],
                     "http://a.ml/vocabularies/document#location": [
                       {
-                        "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                        "@value": "file://test_data/amf/vocabularies/meta.yaml"
                       }
                     ],
                     "http://a.ml/vocabularies/document#version": [
@@ -11469,7 +11469,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml",
+                "@id": "file://test_data/amf/vocabularies/data_model.yaml",
                 "@type": [
                   "http://a.ml/vocabularies/meta#Vocabulary",
                   "http://www.w3.org/2002/07/owl#Ontology",
@@ -11477,7 +11477,7 @@
                 ],
                 "http://www.w3.org/2002/07/owl#imports": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/vocabularyReference/doc",
+                    "@id": "file://test_data/amf/vocabularies/data_model.yaml/vocabularyReference/doc",
                     "@type": [
                       "http://a.ml/vocabularies/meta#VocabularyReference",
                       "http://a.ml/vocabularies/document#DomainElement"
@@ -11489,7 +11489,7 @@
                     ],
                     "http://a.ml/vocabularies/document#reference": [
                       {
-                        "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                        "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
                       }
                     ],
                     "http://a.ml/vocabularies/meta#base": [
@@ -11501,7 +11501,7 @@
                 ],
                 "http://a.ml/vocabularies/meta#externals": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/externals/rdf",
+                    "@id": "file://test_data/amf/vocabularies/data_model.yaml/externals/rdf",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -11519,7 +11519,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/externals/schema-org",
+                    "@id": "file://test_data/amf/vocabularies/data_model.yaml/externals/schema-org",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -11803,7 +11803,7 @@
                 ],
                 "http://a.ml/vocabularies/document#location": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml"
+                    "@value": "file://test_data/amf/vocabularies/data_model.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/document#version": [
@@ -11813,7 +11813,7 @@
                 ],
                 "http://a.ml/vocabularies/document#references": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml",
                     "@type": [
                       "http://a.ml/vocabularies/meta#Vocabulary",
                       "http://www.w3.org/2002/07/owl#Ontology",
@@ -11821,7 +11821,7 @@
                     ],
                     "http://www.w3.org/2002/07/owl#imports": [
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
+                        "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
                         "@type": [
                           "http://a.ml/vocabularies/meta#VocabularyReference",
                           "http://a.ml/vocabularies/document#DomainElement"
@@ -11833,7 +11833,7 @@
                         ],
                         "http://a.ml/vocabularies/document#reference": [
                           {
-                            "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                            "@value": "file://test_data/amf/vocabularies/meta.yaml"
                           }
                         ],
                         "http://a.ml/vocabularies/meta#base": [
@@ -11845,7 +11845,7 @@
                     ],
                     "http://a.ml/vocabularies/meta#externals": [
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
+                        "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
                         "@type": [
                           "http://www.w3.org/2002/07/owl#Ontology",
                           "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -11863,7 +11863,7 @@
                         ]
                       },
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
+                        "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
                         "@type": [
                           "http://www.w3.org/2002/07/owl#Ontology",
                           "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -11881,7 +11881,7 @@
                         ]
                       },
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
+                        "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
                         "@type": [
                           "http://www.w3.org/2002/07/owl#Ontology",
                           "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -11899,7 +11899,7 @@
                         ]
                       },
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
+                        "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
                         "@type": [
                           "http://www.w3.org/2002/07/owl#Ontology",
                           "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -13391,7 +13391,7 @@
                     ],
                     "http://a.ml/vocabularies/document#location": [
                       {
-                        "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                        "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
                       }
                     ],
                     "http://a.ml/vocabularies/document#version": [
@@ -13401,7 +13401,7 @@
                     ],
                     "http://a.ml/vocabularies/document#references": [
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml",
+                        "@id": "file://test_data/amf/vocabularies/meta.yaml",
                         "@type": [
                           "http://a.ml/vocabularies/meta#Vocabulary",
                           "http://www.w3.org/2002/07/owl#Ontology",
@@ -13439,7 +13439,7 @@
                         ],
                         "http://a.ml/vocabularies/document#location": [
                           {
-                            "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                            "@value": "file://test_data/amf/vocabularies/meta.yaml"
                           }
                         ],
                         "http://a.ml/vocabularies/document#version": [
@@ -13495,7 +13495,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml",
+            "@id": "file://test_data/amf/vocabularies/aml_doc.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -13503,7 +13503,7 @@
             ],
             "http://www.w3.org/2002/07/owl#imports": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
                 "@type": [
                   "http://a.ml/vocabularies/meta#VocabularyReference",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -13515,7 +13515,7 @@
                 ],
                 "http://a.ml/vocabularies/document#reference": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                    "@value": "file://test_data/amf/vocabularies/meta.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#base": [
@@ -13527,7 +13527,7 @@
             ],
             "http://a.ml/vocabularies/meta#externals": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -13545,7 +13545,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -13563,7 +13563,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -13581,7 +13581,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -15073,7 +15073,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -15083,7 +15083,7 @@
             ],
             "http://a.ml/vocabularies/document#references": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml",
+                "@id": "file://test_data/amf/vocabularies/meta.yaml",
                 "@type": [
                   "http://a.ml/vocabularies/meta#Vocabulary",
                   "http://www.w3.org/2002/07/owl#Ontology",
@@ -15121,7 +15121,7 @@
                 ],
                 "http://a.ml/vocabularies/document#location": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                    "@value": "file://test_data/amf/vocabularies/meta.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/document#version": [
@@ -15153,7 +15153,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml",
+            "@id": "file://test_data/amf/vocabularies/data_model.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -15161,7 +15161,7 @@
             ],
             "http://www.w3.org/2002/07/owl#imports": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/vocabularyReference/doc",
+                "@id": "file://test_data/amf/vocabularies/data_model.yaml/vocabularyReference/doc",
                 "@type": [
                   "http://a.ml/vocabularies/meta#VocabularyReference",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -15173,7 +15173,7 @@
                 ],
                 "http://a.ml/vocabularies/document#reference": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                    "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#base": [
@@ -15185,7 +15185,7 @@
             ],
             "http://a.ml/vocabularies/meta#externals": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/externals/rdf",
+                "@id": "file://test_data/amf/vocabularies/data_model.yaml/externals/rdf",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -15203,7 +15203,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/externals/schema-org",
+                "@id": "file://test_data/amf/vocabularies/data_model.yaml/externals/schema-org",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -15487,7 +15487,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml"
+                "@value": "file://test_data/amf/vocabularies/data_model.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -15497,7 +15497,7 @@
             ],
             "http://a.ml/vocabularies/document#references": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml",
                 "@type": [
                   "http://a.ml/vocabularies/meta#Vocabulary",
                   "http://www.w3.org/2002/07/owl#Ontology",
@@ -15505,7 +15505,7 @@
                 ],
                 "http://www.w3.org/2002/07/owl#imports": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
                     "@type": [
                       "http://a.ml/vocabularies/meta#VocabularyReference",
                       "http://a.ml/vocabularies/document#DomainElement"
@@ -15517,7 +15517,7 @@
                     ],
                     "http://a.ml/vocabularies/document#reference": [
                       {
-                        "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                        "@value": "file://test_data/amf/vocabularies/meta.yaml"
                       }
                     ],
                     "http://a.ml/vocabularies/meta#base": [
@@ -15529,7 +15529,7 @@
                 ],
                 "http://a.ml/vocabularies/meta#externals": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -15547,7 +15547,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -15565,7 +15565,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -15583,7 +15583,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -17075,7 +17075,7 @@
                 ],
                 "http://a.ml/vocabularies/document#location": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                    "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/document#version": [
@@ -17085,7 +17085,7 @@
                 ],
                 "http://a.ml/vocabularies/document#references": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml",
+                    "@id": "file://test_data/amf/vocabularies/meta.yaml",
                     "@type": [
                       "http://a.ml/vocabularies/meta#Vocabulary",
                       "http://www.w3.org/2002/07/owl#Ontology",
@@ -17123,7 +17123,7 @@
                     ],
                     "http://a.ml/vocabularies/document#location": [
                       {
-                        "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                        "@value": "file://test_data/amf/vocabularies/meta.yaml"
                       }
                     ],
                     "http://a.ml/vocabularies/document#version": [
@@ -17167,7 +17167,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml",
+            "@id": "file://test_data/amf/vocabularies/meta.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -17205,7 +17205,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                "@value": "file://test_data/amf/vocabularies/meta.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -17237,7 +17237,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/shapes.yaml",
+        "@id": "file://test_data/amf/vocabularies/shapes.yaml",
         "@type": [
           "http://a.ml/vocabularies/meta#Vocabulary",
           "http://www.w3.org/2002/07/owl#Ontology",
@@ -17245,7 +17245,7 @@
         ],
         "http://www.w3.org/2002/07/owl#imports": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/shapes.yaml/vocabularyReference/doc",
+            "@id": "file://test_data/amf/vocabularies/shapes.yaml/vocabularyReference/doc",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -17257,7 +17257,7 @@
             ],
             "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -17267,7 +17267,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/shapes.yaml/vocabularyReference/data",
+            "@id": "file://test_data/amf/vocabularies/shapes.yaml/vocabularyReference/data",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -17279,7 +17279,7 @@
             ],
             "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml"
+                "@value": "file://test_data/amf/vocabularies/data_model.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -17291,7 +17291,7 @@
         ],
         "http://a.ml/vocabularies/meta#externals": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/shapes.yaml/externals/shacl",
+            "@id": "file://test_data/amf/vocabularies/shapes.yaml/externals/shacl",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -17309,7 +17309,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/shapes.yaml/externals/schema-org",
+            "@id": "file://test_data/amf/vocabularies/shapes.yaml/externals/schema-org",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -20069,7 +20069,7 @@
         ],
         "http://a.ml/vocabularies/document#location": [
           {
-            "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/shapes.yaml"
+            "@value": "file://test_data/amf/vocabularies/shapes.yaml"
           }
         ],
         "http://a.ml/vocabularies/document#version": [
@@ -20079,7 +20079,7 @@
         ],
         "http://a.ml/vocabularies/document#references": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml",
+            "@id": "file://test_data/amf/vocabularies/data_model.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -20087,7 +20087,7 @@
             ],
             "http://www.w3.org/2002/07/owl#imports": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/vocabularyReference/doc",
+                "@id": "file://test_data/amf/vocabularies/data_model.yaml/vocabularyReference/doc",
                 "@type": [
                   "http://a.ml/vocabularies/meta#VocabularyReference",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -20099,7 +20099,7 @@
                 ],
                 "http://a.ml/vocabularies/document#reference": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                    "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#base": [
@@ -20111,7 +20111,7 @@
             ],
             "http://a.ml/vocabularies/meta#externals": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/externals/rdf",
+                "@id": "file://test_data/amf/vocabularies/data_model.yaml/externals/rdf",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -20129,7 +20129,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml/externals/schema-org",
+                "@id": "file://test_data/amf/vocabularies/data_model.yaml/externals/schema-org",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -20413,7 +20413,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/data_model.yaml"
+                "@value": "file://test_data/amf/vocabularies/data_model.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -20423,7 +20423,7 @@
             ],
             "http://a.ml/vocabularies/document#references": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml",
                 "@type": [
                   "http://a.ml/vocabularies/meta#Vocabulary",
                   "http://www.w3.org/2002/07/owl#Ontology",
@@ -20431,7 +20431,7 @@
                 ],
                 "http://www.w3.org/2002/07/owl#imports": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
                     "@type": [
                       "http://a.ml/vocabularies/meta#VocabularyReference",
                       "http://a.ml/vocabularies/document#DomainElement"
@@ -20443,7 +20443,7 @@
                     ],
                     "http://a.ml/vocabularies/document#reference": [
                       {
-                        "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                        "@value": "file://test_data/amf/vocabularies/meta.yaml"
                       }
                     ],
                     "http://a.ml/vocabularies/meta#base": [
@@ -20455,7 +20455,7 @@
                 ],
                 "http://a.ml/vocabularies/meta#externals": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -20473,7 +20473,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -20491,7 +20491,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -20509,7 +20509,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
+                    "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -22001,7 +22001,7 @@
                 ],
                 "http://a.ml/vocabularies/document#location": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                    "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/document#version": [
@@ -22011,7 +22011,7 @@
                 ],
                 "http://a.ml/vocabularies/document#references": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml",
+                    "@id": "file://test_data/amf/vocabularies/meta.yaml",
                     "@type": [
                       "http://a.ml/vocabularies/meta#Vocabulary",
                       "http://www.w3.org/2002/07/owl#Ontology",
@@ -22049,7 +22049,7 @@
                     ],
                     "http://a.ml/vocabularies/document#location": [
                       {
-                        "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                        "@value": "file://test_data/amf/vocabularies/meta.yaml"
                       }
                     ],
                     "http://a.ml/vocabularies/document#version": [
@@ -22093,7 +22093,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml",
+            "@id": "file://test_data/amf/vocabularies/aml_doc.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -22101,7 +22101,7 @@
             ],
             "http://www.w3.org/2002/07/owl#imports": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/vocabularyReference/meta",
                 "@type": [
                   "http://a.ml/vocabularies/meta#VocabularyReference",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -22113,7 +22113,7 @@
                 ],
                 "http://a.ml/vocabularies/document#reference": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                    "@value": "file://test_data/amf/vocabularies/meta.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#base": [
@@ -22125,7 +22125,7 @@
             ],
             "http://a.ml/vocabularies/meta#externals": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/schema-org",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -22143,7 +22143,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/shacl",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -22161,7 +22161,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdf",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -22179,7 +22179,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
+                "@id": "file://test_data/amf/vocabularies/aml_doc.yaml/externals/rdfs",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -23671,7 +23671,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/aml_doc.yaml"
+                "@value": "file://test_data/amf/vocabularies/aml_doc.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -23681,7 +23681,7 @@
             ],
             "http://a.ml/vocabularies/document#references": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml",
+                "@id": "file://test_data/amf/vocabularies/meta.yaml",
                 "@type": [
                   "http://a.ml/vocabularies/meta#Vocabulary",
                   "http://www.w3.org/2002/07/owl#Ontology",
@@ -23719,7 +23719,7 @@
                 ],
                 "http://a.ml/vocabularies/document#location": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/amf/vocabularies/meta.yaml"
+                    "@value": "file://test_data/amf/vocabularies/meta.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/document#version": [
@@ -23765,7 +23765,7 @@
     ],
     "http://a.ml/vocabularies/document#declares": [
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -23783,7 +23783,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -23810,7 +23810,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -23832,7 +23832,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -23854,7 +23854,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -23871,18 +23871,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ScopeObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ScopeObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -23909,7 +23909,7 @@
             ],
             "http://www.w3.org/ns/shacl#in": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -23939,7 +23939,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -23966,7 +23966,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -23990,7 +23990,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -24008,7 +24008,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24035,7 +24035,7 @@
             ],
             "http://www.w3.org/ns/shacl#in": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -24047,7 +24047,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24069,7 +24069,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24086,11 +24086,11 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
                   }
                 ]
               }
@@ -24102,7 +24102,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24129,7 +24129,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24156,7 +24156,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24185,7 +24185,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -24203,7 +24203,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24220,18 +24220,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/InfoObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/InfoObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/LicenseObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/LicenseObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24253,7 +24253,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24275,7 +24275,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24292,18 +24292,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/InfoObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/InfoObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ContactObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ContactObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/InfoObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24327,7 +24327,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -24345,7 +24345,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24362,18 +24362,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24400,7 +24400,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24417,18 +24417,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24445,18 +24445,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ExampleObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ExampleObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24485,7 +24485,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/LicenseObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/LicenseObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -24503,7 +24503,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/LicenseObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/LicenseObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24525,7 +24525,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/LicenseObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/LicenseObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24554,7 +24554,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -24572,7 +24572,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24589,21 +24589,21 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme"
                   }
                 ],
                 "http://www.w3.org/2000/01/rdf-schema#_2": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme"
                   }
                 ],
                 "http://www.w3.org/2000/01/rdf-schema#_3": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme"
                   }
                 ]
               }
@@ -24620,7 +24620,7 @@
             ],
             "http://a.ml/vocabularies/meta#typeDiscriminatorMap": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme->basic,file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme->apiKey,file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme->oauth2"
+                "@value": "file://test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme->basic,file://test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme->apiKey,file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme->oauth2"
               }
             ],
             "http://a.ml/vocabularies/meta#typeDiscriminatorName": [
@@ -24630,7 +24630,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24647,7 +24647,7 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -24658,7 +24658,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24675,11 +24675,11 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/InfoObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/InfoObject"
                   }
                 ]
               }
@@ -24691,7 +24691,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24718,7 +24718,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24740,7 +24740,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24767,7 +24767,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24794,7 +24794,7 @@
             ],
             "http://www.w3.org/ns/shacl#in": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -24824,7 +24824,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24841,11 +24841,11 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject"
                   }
                 ]
               }
@@ -24862,7 +24862,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/WebAPIObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24891,7 +24891,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -24909,7 +24909,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24936,7 +24936,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -24960,7 +24960,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ContactObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ContactObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -24978,7 +24978,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ContactObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ContactObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25000,7 +25000,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ContactObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ContactObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25022,7 +25022,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ContactObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ContactObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25046,7 +25046,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -25064,7 +25064,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25086,7 +25086,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25113,7 +25113,7 @@
             ],
             "http://www.w3.org/ns/shacl#in": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -25143,7 +25143,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25165,7 +25165,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25187,7 +25187,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25209,7 +25209,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25231,7 +25231,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25253,7 +25253,7 @@
             ],
             "http://www.w3.org/ns/shacl#in": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -25289,7 +25289,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25311,7 +25311,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25333,7 +25333,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25355,7 +25355,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25377,7 +25377,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25399,7 +25399,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25421,7 +25421,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25443,7 +25443,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25465,7 +25465,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25487,7 +25487,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25514,7 +25514,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25541,7 +25541,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25558,18 +25558,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25591,7 +25591,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25618,7 +25618,7 @@
             ],
             "http://www.w3.org/ns/shacl#in": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -25660,7 +25660,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25687,7 +25687,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25711,7 +25711,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -25729,7 +25729,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25751,7 +25751,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25773,7 +25773,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25795,7 +25795,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25817,7 +25817,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25839,7 +25839,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25861,7 +25861,7 @@
             ],
             "http://www.w3.org/ns/shacl#in": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -25897,7 +25897,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25919,7 +25919,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25946,7 +25946,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25968,7 +25968,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -25990,7 +25990,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26012,7 +26012,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26034,7 +26034,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26061,7 +26061,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26083,7 +26083,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26105,7 +26105,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26122,18 +26122,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/XMLObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/XMLObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26150,7 +26150,7 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -26161,7 +26161,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26183,7 +26183,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26200,18 +26200,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26228,18 +26228,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26261,7 +26261,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26278,18 +26278,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26316,7 +26316,7 @@
             ],
             "http://www.w3.org/ns/shacl#in": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -26364,7 +26364,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26386,7 +26386,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/SchemaObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26415,7 +26415,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -26433,7 +26433,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26450,16 +26450,16 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject"
                   }
                 ],
                 "http://www.w3.org/2000/01/rdf-schema#_2": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BodyParameterObject"
                   }
                 ]
               }
@@ -26471,7 +26471,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26503,7 +26503,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26520,11 +26520,11 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/PathItemObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject"
                   }
                 ]
               }
@@ -26533,7 +26533,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -26551,7 +26551,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26578,7 +26578,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26605,7 +26605,7 @@
             ],
             "http://www.w3.org/ns/shacl#in": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -26623,7 +26623,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26650,7 +26650,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26674,7 +26674,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -26692,7 +26692,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26714,7 +26714,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26736,7 +26736,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26758,7 +26758,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26780,7 +26780,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/XMLObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26804,7 +26804,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ExampleObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ExampleObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -26822,7 +26822,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ExampleObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ExampleObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26844,7 +26844,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ExampleObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ExampleObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26868,7 +26868,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -26886,7 +26886,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26913,7 +26913,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26940,7 +26940,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -26964,7 +26964,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ScopeObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ScopeObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -26982,7 +26982,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ScopeObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ScopeObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27009,7 +27009,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ScopeObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ScopeObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27033,7 +27033,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/TagObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/TagObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -27051,7 +27051,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/TagObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/TagObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27068,18 +27068,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/TagObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/TagObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/TagObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/TagObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27106,7 +27106,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/TagObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/TagObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27130,7 +27130,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+        "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -27148,7 +27148,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27165,21 +27165,21 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme"
                   }
                 ],
                 "http://www.w3.org/2000/01/rdf-schema#_2": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme"
                   }
                 ],
                 "http://www.w3.org/2000/01/rdf-schema#_3": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme"
                   }
                 ]
               }
@@ -27191,7 +27191,7 @@
             ],
             "http://a.ml/vocabularies/meta#typeDiscriminatorMap": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme->basic,file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme->apiKey,file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme->oauth2"
+                "@value": "file://test_data/amf/dialects/oas20.yaml#/declarations/BasicSecurityScheme->basic,file://test_data/amf/dialects/oas20.yaml#/declarations/ApiKeySecurityScheme->apiKey,file://test_data/amf/dialects/oas20.yaml#/declarations/Oauth2SecurityScheme->oauth2"
               }
             ],
             "http://a.ml/vocabularies/meta#typeDiscriminatorName": [
@@ -27201,7 +27201,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27223,7 +27223,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27250,7 +27250,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27267,11 +27267,11 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ParameterObject"
                   }
                 ]
               }
@@ -27283,7 +27283,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27300,11 +27300,11 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ResponseObject"
                   }
                 ]
               }
@@ -27316,7 +27316,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27343,7 +27343,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27365,7 +27365,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27387,7 +27387,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27414,7 +27414,7 @@
             ],
             "http://www.w3.org/ns/shacl#in": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
@@ -27444,7 +27444,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27461,11 +27461,11 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/TagObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/TagObject"
                   }
                 ]
               }
@@ -27477,7 +27477,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -27494,18 +27494,18 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
+                "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject"
+                    "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/ExternalDocumentationObject"
                   }
                 ]
               }
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
+            "@id": "file://test_data/amf/dialects/oas20.yaml#/declarations/OperationObject",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"

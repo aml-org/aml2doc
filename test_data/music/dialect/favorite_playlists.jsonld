@@ -1,6 +1,6 @@
 [
   {
-    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/favorite_playlists.yaml",
+    "@id": "file://test_data/music/dialect/favorite_playlists.yaml",
     "@type": [
       "http://a.ml/vocabularies/meta#Dialect",
       "http://a.ml/vocabularies/document#Document",
@@ -20,14 +20,14 @@
     ],
     "http://a.ml/vocabularies/meta#documents": [
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/favorite_playlists.yaml/documents",
+        "@id": "file://test_data/music/dialect/favorite_playlists.yaml/documents",
         "@type": [
           "http://a.ml/vocabularies/meta#DocumentsModel",
           "http://a.ml/vocabularies/document#DomainElement"
         ],
         "http://a.ml/vocabularies/meta#rootDocument": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/favorite_playlists.yaml#/documents/root",
+            "@id": "file://test_data/music/dialect/favorite_playlists.yaml#/documents/root",
             "@type": [
               "http://a.ml/vocabularies/meta#DocumentMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -39,7 +39,7 @@
             ],
             "http://a.ml/vocabularies/meta#encodedNode": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/favorite_playlists.yaml#/declarations/FavoritePlaylistsNode"
+                "@id": "file://test_data/music/dialect/favorite_playlists.yaml#/declarations/FavoritePlaylistsNode"
               }
             ]
           }
@@ -63,7 +63,7 @@
     ],
     "http://a.ml/vocabularies/document#references": [
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music_curation.yaml",
+        "@id": "file://test_data/music/vocabulary/music_curation.yaml",
         "@type": [
           "http://a.ml/vocabularies/meta#Vocabulary",
           "http://www.w3.org/2002/07/owl#Ontology",
@@ -76,7 +76,7 @@
         ],
         "http://www.w3.org/2002/07/owl#imports": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music_curation.yaml/vocabularyReference/music",
+            "@id": "file://test_data/music/vocabulary/music_curation.yaml/vocabularyReference/music",
             "@type": [
               "http://a.ml/vocabularies/meta#VocabularyReference",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -88,7 +88,7 @@
             ],
             "http://a.ml/vocabularies/document#reference": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml"
+                "@value": "file://test_data/music/vocabulary/music.yaml"
               }
             ],
             "http://a.ml/vocabularies/meta#base": [
@@ -371,7 +371,7 @@
         ],
         "http://a.ml/vocabularies/document#location": [
           {
-            "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music_curation.yaml"
+            "@value": "file://test_data/music/vocabulary/music_curation.yaml"
           }
         ],
         "http://a.ml/vocabularies/document#version": [
@@ -381,7 +381,7 @@
         ],
         "http://a.ml/vocabularies/document#references": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml",
+            "@id": "file://test_data/music/vocabulary/music.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -394,7 +394,7 @@
             ],
             "http://a.ml/vocabularies/meta#externals": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml/externals/geo",
+                "@id": "file://test_data/music/vocabulary/music.yaml/externals/geo",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -412,7 +412,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml/externals/schema-org",
+                "@id": "file://test_data/music/vocabulary/music.yaml/externals/schema-org",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -1166,7 +1166,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml"
+                "@value": "file://test_data/music/vocabulary/music.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -1189,7 +1189,7 @@
         ]
       },
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml",
+        "@id": "file://test_data/music/dialect/playlist.yaml",
         "@type": [
           "http://a.ml/vocabularies/meta#Dialect",
           "http://a.ml/vocabularies/document#Document",
@@ -1209,7 +1209,7 @@
         ],
         "http://a.ml/vocabularies/meta#externals": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml/externals/schema-org",
+            "@id": "file://test_data/music/dialect/playlist.yaml/externals/schema-org",
             "@type": [
               "http://www.w3.org/2002/07/owl#Ontology",
               "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -1229,14 +1229,14 @@
         ],
         "http://a.ml/vocabularies/meta#documents": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml/documents",
+            "@id": "file://test_data/music/dialect/playlist.yaml/documents",
             "@type": [
               "http://a.ml/vocabularies/meta#DocumentsModel",
               "http://a.ml/vocabularies/document#DomainElement"
             ],
             "http://a.ml/vocabularies/meta#rootDocument": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/documents/root",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/documents/root",
                 "@type": [
                   "http://a.ml/vocabularies/meta#DocumentMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1248,12 +1248,12 @@
                 ],
                 "http://a.ml/vocabularies/meta#encodedNode": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode"
+                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#declaredNode": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/documents/declaration/composers",
+                    "@id": "file://test_data/music/dialect/playlist.yaml#/documents/declaration/composers",
                     "@type": [
                       "http://a.ml/vocabularies/meta#PublicNodeMapping",
                       "http://a.ml/vocabularies/document#DomainElement"
@@ -1265,12 +1265,12 @@
                     ],
                     "http://a.ml/vocabularies/meta#mappedNode": [
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ComposerNode"
+                        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ComposerNode"
                       }
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/documents/declaration/records",
+                    "@id": "file://test_data/music/dialect/playlist.yaml#/documents/declaration/records",
                     "@type": [
                       "http://a.ml/vocabularies/meta#PublicNodeMapping",
                       "http://a.ml/vocabularies/document#DomainElement"
@@ -1282,7 +1282,7 @@
                     ],
                     "http://a.ml/vocabularies/meta#mappedNode": [
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode"
+                        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode"
                       }
                     ]
                   }
@@ -1293,12 +1293,12 @@
         ],
         "http://a.ml/vocabularies/document#location": [
           {
-            "@value": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml"
+            "@value": "file://test_data/music/dialect/playlist.yaml"
           }
         ],
         "http://a.ml/vocabularies/document#declares": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
+            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodeMapping",
               "http://www.w3.org/ns/shacl#Shape",
@@ -1316,7 +1316,7 @@
             ],
             "http://www.w3.org/ns/shacl#property": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1343,7 +1343,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1365,7 +1365,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/TrackNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1399,7 +1399,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
+            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodeMapping",
               "http://www.w3.org/ns/shacl#Shape",
@@ -1417,7 +1417,7 @@
             ],
             "http://www.w3.org/ns/shacl#property": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1444,7 +1444,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ComposerNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1473,7 +1473,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
+            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodeMapping",
               "http://www.w3.org/ns/shacl#Shape",
@@ -1491,7 +1491,7 @@
             ],
             "http://www.w3.org/ns/shacl#property": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1518,7 +1518,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1545,7 +1545,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1579,7 +1579,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
+            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodeMapping",
               "http://www.w3.org/ns/shacl#Shape",
@@ -1597,7 +1597,7 @@
             ],
             "http://www.w3.org/ns/shacl#property": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1624,7 +1624,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ArtistNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1653,7 +1653,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodeMapping",
               "http://www.w3.org/ns/shacl#Shape",
@@ -1671,7 +1671,7 @@
             ],
             "http://www.w3.org/ns/shacl#property": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1693,7 +1693,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1710,11 +1710,11 @@
                 ],
                 "http://www.w3.org/ns/shacl#node": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
+                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
                     "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                     "http://www.w3.org/2000/01/rdf-schema#_1": [
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ArtistNode"
+                        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ArtistNode"
                       }
                     ]
                   }
@@ -1726,7 +1726,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1743,11 +1743,11 @@
                 ],
                 "http://www.w3.org/ns/shacl#node": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
+                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
                     "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                     "http://www.w3.org/2000/01/rdf-schema#_1": [
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/TrackNode"
+                        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/TrackNode"
                       }
                     ]
                   }
@@ -1759,7 +1759,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1776,11 +1776,11 @@
                 ],
                 "http://www.w3.org/ns/shacl#node": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
+                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
                     "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                     "http://www.w3.org/2000/01/rdf-schema#_1": [
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/ComposerNode"
+                        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/ComposerNode"
                       }
                     ]
                   }
@@ -1792,7 +1792,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1809,11 +1809,11 @@
                 ],
                 "http://www.w3.org/ns/shacl#node": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
+                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode/list",
                     "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                     "http://www.w3.org/2000/01/rdf-schema#_1": [
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/RecordNode"
+                        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/RecordNode"
                       }
                     ]
                   }
@@ -1827,7 +1827,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+            "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodeMapping",
               "http://www.w3.org/ns/shacl#Shape",
@@ -1845,7 +1845,7 @@
             ],
             "http://www.w3.org/ns/shacl#property": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1867,7 +1867,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1884,18 +1884,18 @@
                 ],
                 "http://www.w3.org/ns/shacl#node": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode/list",
+                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode/list",
                     "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                     "http://www.w3.org/2000/01/rdf-schema#_1": [
                       {
-                        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode"
+                        "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode"
                       }
                     ]
                   }
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1922,7 +1922,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1944,7 +1944,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -1971,7 +1971,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
+                "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/PlaylistNode",
                 "@type": [
                   "http://a.ml/vocabularies/meta#NodePropertyMapping",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -2012,7 +2012,7 @@
         ],
         "http://a.ml/vocabularies/document#references": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music_curation.yaml",
+            "@id": "file://test_data/music/vocabulary/music_curation.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -2025,7 +2025,7 @@
             ],
             "http://www.w3.org/2002/07/owl#imports": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music_curation.yaml/vocabularyReference/music",
+                "@id": "file://test_data/music/vocabulary/music_curation.yaml/vocabularyReference/music",
                 "@type": [
                   "http://a.ml/vocabularies/meta#VocabularyReference",
                   "http://a.ml/vocabularies/document#DomainElement"
@@ -2037,7 +2037,7 @@
                 ],
                 "http://a.ml/vocabularies/document#reference": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml"
+                    "@value": "file://test_data/music/vocabulary/music.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/meta#base": [
@@ -2320,7 +2320,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music_curation.yaml"
+                "@value": "file://test_data/music/vocabulary/music_curation.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -2330,7 +2330,7 @@
             ],
             "http://a.ml/vocabularies/document#references": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml",
+                "@id": "file://test_data/music/vocabulary/music.yaml",
                 "@type": [
                   "http://a.ml/vocabularies/meta#Vocabulary",
                   "http://www.w3.org/2002/07/owl#Ontology",
@@ -2343,7 +2343,7 @@
                 ],
                 "http://a.ml/vocabularies/meta#externals": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml/externals/geo",
+                    "@id": "file://test_data/music/vocabulary/music.yaml/externals/geo",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -2361,7 +2361,7 @@
                     ]
                   },
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml/externals/schema-org",
+                    "@id": "file://test_data/music/vocabulary/music.yaml/externals/schema-org",
                     "@type": [
                       "http://www.w3.org/2002/07/owl#Ontology",
                       "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -3115,7 +3115,7 @@
                 ],
                 "http://a.ml/vocabularies/document#location": [
                   {
-                    "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml"
+                    "@value": "file://test_data/music/vocabulary/music.yaml"
                   }
                 ],
                 "http://a.ml/vocabularies/document#version": [
@@ -3138,7 +3138,7 @@
             ]
           },
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml",
+            "@id": "file://test_data/music/vocabulary/music.yaml",
             "@type": [
               "http://a.ml/vocabularies/meta#Vocabulary",
               "http://www.w3.org/2002/07/owl#Ontology",
@@ -3151,7 +3151,7 @@
             ],
             "http://a.ml/vocabularies/meta#externals": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml/externals/geo",
+                "@id": "file://test_data/music/vocabulary/music.yaml/externals/geo",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -3169,7 +3169,7 @@
                 ]
               },
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml/externals/schema-org",
+                "@id": "file://test_data/music/vocabulary/music.yaml/externals/schema-org",
                 "@type": [
                   "http://www.w3.org/2002/07/owl#Ontology",
                   "http://a.ml/vocabularies/meta#ExternalVocabulary",
@@ -3923,7 +3923,7 @@
             ],
             "http://a.ml/vocabularies/document#location": [
               {
-                "@value": "file:///home/post/projects/aml2html/test_data/music/vocabulary/music.yaml"
+                "@value": "file://test_data/music/vocabulary/music.yaml"
               }
             ],
             "http://a.ml/vocabularies/document#version": [
@@ -3948,7 +3948,7 @@
     ],
     "http://a.ml/vocabularies/document#declares": [
       {
-        "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/favorite_playlists.yaml#/declarations/FavoritePlaylistsNode",
+        "@id": "file://test_data/music/dialect/favorite_playlists.yaml#/declarations/FavoritePlaylistsNode",
         "@type": [
           "http://a.ml/vocabularies/meta#NodeMapping",
           "http://www.w3.org/ns/shacl#Shape",
@@ -3966,7 +3966,7 @@
         ],
         "http://www.w3.org/ns/shacl#property": [
           {
-            "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/favorite_playlists.yaml#/declarations/FavoritePlaylistsNode",
+            "@id": "file://test_data/music/dialect/favorite_playlists.yaml#/declarations/FavoritePlaylistsNode",
             "@type": [
               "http://a.ml/vocabularies/meta#NodePropertyMapping",
               "http://a.ml/vocabularies/document#DomainElement"
@@ -3983,11 +3983,11 @@
             ],
             "http://www.w3.org/ns/shacl#node": [
               {
-                "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/favorite_playlists.yaml#/declarations/FavoritePlaylistsNode/list",
+                "@id": "file://test_data/music/dialect/favorite_playlists.yaml#/declarations/FavoritePlaylistsNode/list",
                 "@type": "http://www.w3.org/2000/01/rdf-schema#Seq",
                 "http://www.w3.org/2000/01/rdf-schema#_1": [
                   {
-                    "@id": "file:///home/post/projects/aml2html/test_data/music/dialect/playlist.yaml#/declarations/SelectionNode"
+                    "@id": "file://test_data/music/dialect/playlist.yaml#/declarations/SelectionNode"
                   }
                 ]
               }
