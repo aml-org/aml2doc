@@ -58,21 +58,19 @@ function parseHashValue (id) {
   return afterHash
 }
 
-/** Renders Mustache template with data and writes it to an HTML file.
+/** Renders Mustache template with data and writes it to a file.
  *
  * @param data Data to be renreder in a template.
- * @param tmplType Template type. Must match type-specific template
-                   folders names.
  * @param tmplPath Mustache template path.
- * @param htmlPath Output HTML path.
+ * @param outPath Output file path.
  */
-function renderTemplate (data, tmplPath, htmlPath) {
+function renderTemplate (data, tmplPath, outPath) {
   console.log(
     `Rendering "${tmplPath}" template`,
     data.id ? `for ${data.id}` : '')
   const tmplStr = fs.readFileSync(tmplPath, 'utf-8')
-  const htmlStr = Mustache.render(tmplStr, data)
-  fs.writeFileSync(htmlPath, htmlStr)
+  const renderedStr = Mustache.render(tmplStr, addTmplUtils(data))
+  fs.writeFileSync(outPath, renderedStr)
 }
 
 /* Sorts objects by property. To be used in Array.sort() */
@@ -88,14 +86,14 @@ function sorterBy (p) {
   }
 }
 
-/* Makes a slug used in html names creation. */
+/* Makes a slug used in page urls creation. */
 function slugify (val) {
   return val.split(' ').join('').toLowerCase()
 }
 
-/* Creates an html page name for nodeMappings item. */
-function makeSchemaHtmlName (dialectSlug, schemaName) {
-  return `schema_${dialectSlug}_${schemaName}.html`
+/* Creates a schema page name for nodeMappings item. */
+function makeSchemaPageName (dialectSlug, schemaName) {
+  return `schema_${dialectSlug}_${schemaName}`
 }
 
 /* Marks item with matching name as active/selected. */
@@ -238,6 +236,22 @@ function getOntologyTerms (ontologyObj) {
   return ontologyTerms
 }
 
+/* Adds template utility functions */
+function addTmplUtils (data) {
+  return {
+    ...data,
+    stripn: stripn
+  }
+}
+
+/* Strips newlines */
+function stripn () {
+  return (text, render) => {
+    const rendered = render(text)
+    return rendered ? rendered.split('\n').join(' ') : rendered
+  }
+}
+
 module.exports = {
   walkSync: walkSync,
   getJsonLdGraph: getJsonLdGraph,
@@ -249,11 +263,12 @@ module.exports = {
   nameSorter: sorterBy('name'),
   sorterBy: sorterBy,
   slugify: slugify,
-  makeSchemaHtmlName: makeSchemaHtmlName,
+  makeSchemaPageName: makeSchemaPageName,
   markActive: markActive,
   getDefaultContext: getDefaultContext,
   loadConfig: loadConfig,
   collectOpt: collectOpt,
+  addTmplUtils: addTmplUtils,
   processLinks: processLinks,
   collectJsonGraphs: collectJsonGraphs,
   getOntologyTerms: getOntologyTerms

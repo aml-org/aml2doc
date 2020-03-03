@@ -201,11 +201,11 @@ describe('utils.markActive', function () {
   })
 })
 
-describe('utils.makeSchemaHtmlName', function () {
-  const makeSchemaHtmlName = utils.__get__('makeSchemaHtmlName')
-  it('should compose schema html page name', function () {
-    expect(makeSchemaHtmlName('dialect1', 'schema1')).to.equal(
-      'schema_dialect1_schema1.html')
+describe('utils.makeSchemaPageName', function () {
+  const makeSchemaPageName = utils.__get__('makeSchemaPageName')
+  it('should compose schema page name', function () {
+    expect(makeSchemaPageName('dialect1', 'schema1')).to.equal(
+      'schema_dialect1_schema1')
   })
 })
 
@@ -238,15 +238,15 @@ describe('utils.sorterBy', function () {
 })
 
 describe('utils.renderTemplate', function () {
-  const htmlPath = path.join(FIXTURES_DIR, 'test.html')
+  const outPath = path.join(FIXTURES_DIR, 'test.html')
   const renderTemplate = utils.__get__('renderTemplate')
   afterEach(function () {
-    try { fs.removeSync(htmlPath) } catch (e) {}
+    try { fs.removeSync(outPath) } catch (e) {}
   })
   it('should render mustache template to a file', function () {
     const tmplPath = path.join(FIXTURES_DIR, 'test.mustache')
-    renderTemplate({ foo: 'hello', bar: 1 }, tmplPath, htmlPath)
-    const cont = fs.readFileSync(htmlPath).toString()
+    renderTemplate({ foo: 'hello', bar: 1 }, tmplPath, outPath)
+    const cont = fs.readFileSync(outPath).toString()
     expect(cont).to.equal('hello: 1')
   })
 })
@@ -344,6 +344,33 @@ describe('utils.getOntologyTerms', function () {
       a: { id: 'a', name: 'A' },
       b: { id: 'b', name: 'B' },
       c: { id: 'c', name: 'C' }
+    })
+  })
+})
+
+describe('utils.addTmplUtils', function () {
+  const addTmplUtils = utils.__get__('addTmplUtils')
+  it('should add template utility functions to an object', function () {
+    const obj = addTmplUtils({ foo: 1 })
+    expect(obj).to.have.property('foo', 1)
+    expect(obj).to.have.property('stripn')
+  })
+})
+
+describe('utils.stripn', function () {
+  const stripn = utils.__get__('stripn')
+  it('should rendex text and remove newlines from it', function () {
+    const fn = stripn()
+    const stripped = fn(
+      'hello\nworld\nagain',
+      x => x + '\nmore')
+    expect(stripped).to.equal('hello world again more')
+  })
+  context('when it fails to renders text', function () {
+    it('should returned render results as is', function () {
+      const fn = stripn()
+      const stripped = fn('hello\nworld\nagain', x => null)
+      expect(stripped).to.equal(null)
     })
   })
 })

@@ -1,0 +1,75 @@
+# {{dialectName}} :: {{label}}
+
+## Navigation
+
+**Index:** • [Index](index.md)
+
+**{{dialectsHeader}}:**{{#navData.dialects}} • {{#active}}*{{name}}*{{/active}}{{^active}}[{{name}}]({{pageName}}.md){{/active}}{{/navData.dialects}}
+
+**{{schemasHeader}}:**{{#navData.nodeMappings}} • {{#active}}*{{name}}*{{/active}}{{^active}}[{{name}}]({{pageName}}.md){{/active}}{{/navData.nodeMappings}}
+
+## {{dialectName}} :: {{label}}
+Term ID: {{targetClassId}}
+
+{{#description}}
+Description: {{#stripn}}{{description}}{{/stripn}}
+{{/description}}
+
+{{^linkedSchemas}}No {{/linkedSchemas}}Linked schemas
+{{#linkedSchemas}}
+{{#rangePageName}}
+  * [{{rangeName}}]({{rangePageName}}.md)
+{{/rangePageName}}
+{{^rangePageName}}
+  * {{rangeName}}
+{{/rangePageName}}
+{{/linkedSchemas}}
+
+### Scalar Properties
+{{^scalarProperties}}No Scalar Properties {{/scalarProperties}}
+
+{{#scalarProperties}}
+
+#### {{name}}
+
+Field | Value
+----- | -----
+Term ID | {{id}}
+Range | {{range}}
+{{#propDesc}}
+Description | {{#stripn}}{{propDesc}}{{/stripn}}
+{{/propDesc}}
+
+{{#constraints.length}}
+Constraint | Value
+---------- | -----
+{{#constraints}}
+{{name}} | {{#stripn}}{{value}}{{/stripn}}
+{{/constraints}}
+{{/constraints.length}}
+{{/scalarProperties}}
+
+
+### Link Properties
+{{^linkProperties}}No Link Properties {{/linkProperties}}
+
+{{#linkProperties}}
+
+#### {{name}}
+
+Field | Value
+----- | -----
+Term ID | {{id}}
+Range | {{#range}} • {{#rangePageName}}[{{rangeName}}]({{rangePageName}}.md){{/rangePageName}}{{^rangePageName}}{{rangeName}}{{/rangePageName}}{{/range}}
+{{#propDesc}}
+Description | {{#stripn}}{{propDesc}}{{/stripn}}
+{{/propDesc}}
+
+{{#constraints.length}}
+Constraint | Value
+---------- | -----
+{{#constraints}}
+{{name}} | {{#stripn}}{{value}}{{/stripn}}
+{{/constraints}}
+{{/constraints.length}}
+{{/linkProperties}}

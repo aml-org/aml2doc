@@ -1,0 +1,39 @@
+# {{label}}
+
+## Navigation
+
+**Index:** • [Index](index.md)
+
+**{{dialectsHeader}}:**{{#navData.dialects}} • {{#active}}*{{name}}*{{/active}}{{^active}}[{{name}}]({{pageName}}.md){{/active}}{{/navData.dialects}}
+
+**{{schemasHeader}}:**{{#navData.nodeMappings}} • {{#active}}*{{name}}*{{/active}}{{^active}}[{{name}}]({{pageName}}.md){{/active}}{{/navData.nodeMappings}}
+
+## {{label}}
+URL: {{id}}
+
+{{#usage}}
+Description: {{#stripn}}{{usage}}{{/stripn}}
+{{/usage}}
+
+{{#version}}
+Version: {{version}}
+{{/version}}
+
+{{#hasPrimaryLinks}}
+Download:
+{{#primaryLinks}}
+  * [{{text}}]({{{href}}})
+{{/primaryLinks}}
+{{/hasPrimaryLinks}}
+
+Schemas:
+{{#nodeMappings}}
+  * [{{label}}]({{pageName}}.md)
+{{/nodeMappings}}
+
+{{#hasSecondaryLinks}}
+Download in other formats:
+{{#secondaryLinks}}
+  * [{{text}}]({{{href}}})
+{{/secondaryLinks}}
+{{/hasSecondaryLinks}}

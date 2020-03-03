@@ -16,11 +16,11 @@ function getDialectData () {
     name: 'WebAPI',
     id: 'file://test/fixtures/musicDialect.yaml',
     slug: 'webapi',
-    htmlName: 'webapi.html',
+    pageName: 'webapi',
     nodeMappings: [{
       name: 'Scope',
       id: 'file://test/fixtures/musicDialect.yaml#/declarations/Scope',
-      htmlName: 'node_scope.html',
+      pageName: 'node_scope',
       description: null,
       scalarProperties: [{
         name: 'name',
@@ -61,7 +61,7 @@ describe('data_collectors.processVocabulary', async function () {
       version: null,
       label: 'Music Vocabulary',
       slug: 'musicvocabulary_vocab',
-      htmlName: 'musicvocabulary_vocab.html'
+      pageName: 'musicvocabulary_vocab'
     })
     expect(acc[id])
       .to.have.property('nodeMappings').and
@@ -76,7 +76,7 @@ describe('data_collectors.processVocabulary', async function () {
       dialectName: 'Music Vocabulary',
       dialectLabel: 'Music Vocabulary',
       slug: 'musicartist_class',
-      htmlName: 'schema_musicvocabulary_vocab_musicartist_class.html'
+      pageName: 'schema_musicvocabulary_vocab_musicartist_class'
     })
   })
 })
@@ -98,7 +98,7 @@ describe('data_collectors.processDialect', async function () {
       id: 'file://test/fixtures/musicDialect.yaml',
       version: '1.0',
       slug: 'playlist',
-      htmlName: 'playlist.html'
+      pageName: 'playlist'
     })
     expect(acc[id])
       .to.have.property('nodeMappings')
@@ -111,7 +111,7 @@ describe('data_collectors.processDialect', async function () {
       dialectName: 'Playlist',
       dialectLabel: 'Playlist',
       slug: 'artistnode',
-      htmlName: 'schema_playlist_artistnode.html',
+      pageName: 'schema_playlist_artistnode',
       description: 'A person or a group of people (or a computer :-) ), whose musical creative work shows sensitivity and imagination\n',
       targetClassId: 'http://a.ml/vocabularies/music#MusicArtist'
     })
@@ -159,7 +159,7 @@ describe('data_collectors.collectNavData', async function () {
       nodeMappings: [{
         name: 'Scope',
         label: 'Scope',
-        htmlName: 'node_scope.html',
+        pageName: 'node_scope',
         active: false
       }]
     })
@@ -176,7 +176,7 @@ describe('data_collectors.collectCommonNavData', async function () {
       dialects: [{
         name: 'WebAPI',
         label: 'WebAPI',
-        htmlName: 'webapi.html',
+        pageName: 'webapi',
         active: false
       }],
       nodeMappings: []
@@ -239,17 +239,17 @@ describe('data_collectors.collectLinkPropsData', async function () {
         rangeDescription: 'hello',
         rangeName: 'shapeValidationNode',
         rangeLabel: 'shapeValidationNode',
-        rangeHtmlName: 'schema_validationprofile_shapevalidationnode.html'
+        rangePageName: 'schema_validationprofile_shapevalidationnode'
       }, {
         rangeDescription: undefined,
         rangeName: 'queryValidationNode',
         rangeLabel: 'queryValidationNode',
-        rangeHtmlName: 'schema_validationprofile_queryvalidationnode.html'
+        rangePageName: 'schema_validationprofile_queryvalidationnode'
       }, {
         rangeDescription: undefined,
         rangeName: 'functionValidationNode',
         rangeLabel: 'functionValidationNode',
-        rangeHtmlName: 'schema_validationprofile_functionvalidationnode.html'
+        rangePageName: 'schema_validationprofile_functionvalidationnode'
       }]
     }])
   })
@@ -349,7 +349,7 @@ describe('data_collectors.collectNodesData', async function () {
       dialectName: 'WebAPI',
       dialectLabel: 'WebAPI',
       slug: 'propertyconstraintnode',
-      htmlName: 'schema_webapi_propertyconstraintnode.html',
+      pageName: 'schema_webapi_propertyconstraintnode',
       description: '',
       targetClassId: 'http://www.w3.org/ns/shacl#PropertyShape'
     })
@@ -381,7 +381,7 @@ describe('data_collectors.collectVocabularyNodesData', async function () {
       dialectName: 'WebAPI',
       dialectLabel: 'WebAPI',
       slug: 'musicartist_class',
-      htmlName: 'schema_webapi_musicartist_class.html'
+      pageName: 'schema_webapi_musicartist_class'
     }, {
       type: 'datatypeProperty',
       name: 'duration',
@@ -391,7 +391,7 @@ describe('data_collectors.collectVocabularyNodesData', async function () {
       dialectName: 'WebAPI',
       dialectLabel: 'WebAPI',
       slug: 'duration_datatypeproperty',
-      htmlName: 'schema_webapi_duration_datatypeproperty.html'
+      pageName: 'schema_webapi_duration_datatypeproperty'
     }])
   })
 })
@@ -408,7 +408,7 @@ describe('data_collectors.collectDialectData', async function () {
       id: 'file://test/fixtures/validationDialect.yaml',
       version: '1.0',
       slug: 'validationprofile',
-      htmlName: 'validationprofile.html'
+      pageName: 'validationprofile'
     })
     expect(data)
       .to.have.property('nodeMappings').and
@@ -428,7 +428,7 @@ describe('data_collectors.collectVocabularyData', async function () {
       version: null,
       label: 'Music Vocabulary',
       slug: 'musicvocabulary_vocab',
-      htmlName: 'musicvocabulary_vocab.html'
+      pageName: 'musicvocabulary_vocab'
     })
     expect(data)
       .to.have.property('nodeMappings').and

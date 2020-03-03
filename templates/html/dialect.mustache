@@ -27,7 +27,7 @@
           <hr>
           {{#navData.dialects}}
             <p class="dialects-nav-item {{^active}}in{{/active}}active-nav-item">
-              <a href="{{{htmlName}}}" title="{{name}}">{{name}}</a>
+              <a href="{{{pageName}}}.html" title="{{name}}">{{name}}</a>
             </p>
           {{/navData.dialects}}
         </div>
@@ -36,7 +36,7 @@
           <hr>
           {{#navData.nodeMappings}}
             <p class="schemas-nav-item {{^active}}in{{/active}}active-nav-item">
-              <a href="{{{htmlName}}}" title="{{name}}">{{name}}</a>
+              <a href="{{{pageName}}}.html" title="{{name}}">{{name}}</a>
             </p>
           {{/navData.nodeMappings}}
         </div>
@@ -76,7 +76,7 @@
         <ul class="dialect-schemas-list">
           {{#nodeMappings}}
             <li class="dialect-schemas-list-item">
-              <a href="{{{htmlName}}}" title="{{label}}">{{label}}</a>
+              <a href="{{{pageName}}}.html" title="{{label}}">{{label}}</a>
             </li>
           {{/nodeMappings}}
         </ul>

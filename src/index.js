@@ -9,7 +9,7 @@ const collect = require('./data_collectors')
 let TMPL_DIR = path.join(utils.TMPL_DIR)
 
 /** Runs all the logic. */
-async function aml2html (program) {
+async function aml2doc (program) {
   let ctx = utils.getDefaultContext()
   await amf.AMF.init()
 
@@ -85,8 +85,8 @@ async function aml2html (program) {
     // Render dialect overview template
     utils.renderTemplate(
       { ...dialectData, ...ctx.config, ...links },
-      path.join(TMPL_DIR, 'dialect.mustache'),
-      path.join(outDir, dialectData.htmlName))
+      path.join(TMPL_DIR, program.syntax, 'dialect.mustache'),
+      path.join(outDir, `${dialectData.pageName}.${program.syntax}`))
 
     // Render nodeMappings item data
     dialectData.nodeMappings.forEach(nodeData => {
@@ -97,8 +97,8 @@ async function aml2html (program) {
       nodeData.css = program.css
       utils.renderTemplate(
         { ...nodeData, ...ctx.config },
-        path.join(TMPL_DIR, 'node.mustache'),
-        path.join(outDir, nodeData.htmlName))
+        path.join(TMPL_DIR, program.syntax, 'node.mustache'),
+        path.join(outDir, `${nodeData.pageName}.${program.syntax}`))
     })
   })
 
@@ -113,10 +113,10 @@ async function aml2html (program) {
       ...ctx.config,
       ...indexLinks
     },
-    path.join(TMPL_DIR, 'index.mustache'),
-    path.join(outDir, 'index.html'))
+    path.join(TMPL_DIR, program.syntax, 'index.mustache'),
+    path.join(outDir, `index.${program.syntax}`))
 
   utils.copyStaticFiles(outDir)
 }
 
-module.exports = aml2html
+module.exports = aml2doc

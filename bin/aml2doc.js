@@ -2,7 +2,7 @@
 
 const program = require('commander')
 
-const aml2html = require('../src/index')
+const aml2doc = require('../src/index')
 const utils = require('../src/utils')
 
 program
@@ -10,10 +10,11 @@ program
   .action(outputDir => {
     program.outputDir = outputDir
   })
-  .name('aml2html')
-  .description('Convert AML Vocabularies & Dialects to HTML')
+  .name('aml2doc')
+  .description('Convert AML Vocabularies & Dialects to documentation.')
   .option('-d, --indir <path>', 'Path to input directory to convert. Takes precedence over --infile.')
   .option('-f, --infile <path>', 'Path to input file to convert', utils.collectOpt, [])
+  .option('-s, --syntax <name>', 'Output syntax (html or md)', 'html')
   .option('-c, --css <path>', 'Custom css file path', utils.collectOpt, [])
   .option('-g, --cfg <path>', 'Configuration file path')
   .option('-t, --templates <path>', 'Optional path to custom templates for the documentation')
@@ -28,4 +29,4 @@ if (!(program.infile.length > 0 || program.indir)) {
   program.help()
 }
 
-aml2html(program)
+aml2doc(program)

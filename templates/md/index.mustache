@@ -1,0 +1,46 @@
+# Index
+
+## Navigation
+
+**Index:** • Index
+
+**{{dialectsHeader}}:**{{#navData.dialects}} • [{{name}}]({{pageName}}.md){{/navData.dialects}}
+
+## {{mainHeader}}
+{{#indexHeader}}
+Title: {{indexHeader}}
+{{/indexHeader}}
+
+{{#indexVersion}}
+Version: {{indexVersion}}
+{{/indexVersion}}
+
+{{#indexDescription}}
+Description: {{indexDescription}}
+{{/indexDescription}}
+
+{{#hasIndexLinks}}
+Download as a single file in the following formats:
+{{#indexLinks}}
+  * [{{text}}]({{{href}}})
+{{/indexLinks}}
+{{/hasIndexLinks}}
+
+
+## {{dialectsHeader}}
+Dialect | Usage
+------- | -----
+{{#dialects}}
+{{label}} | {{usage}}
+{{/dialects}}
+
+## {{schemasHeader}}
+{{#dialects}}
+
+### {{label}}
+Schema | Description
+------ | -----------
+{{#nodeMappings}}
+{{label}} | {{#stripn}}{{description}}{{/stripn}}
+{{/nodeMappings}}
+{{/dialects}}
